@@ -1,12 +1,12 @@
 ---
 published: true
 date: '2024-04-01 14:12 +0800'
-title: Using Local Congestion Mitigation (LCM) on RFC1149-based avian networks
+title: Using Local Congestion Mitigation (LCM) on RFC1149-based Avian networks
 author: Fung Lim
 excerpt: The applicability of LCM on RFC1149 based avian networks
 ---
 
-## Using Local Congestion Mitigation (LCM) on RFC1149-based avian networks
+## Using Local Congestion Mitigation (LCM) on RFC1149-based Avian networks
 
 Local Congestion Mitigation provides operators with an additional toolset to address transient congestion by identifying and optionally diverting traffic to where capacity is available. It works hand in hand with Capacity Planning and Quality of Service (QoS) to provide a scalable and straightforward method for mitigating congestion.
 
