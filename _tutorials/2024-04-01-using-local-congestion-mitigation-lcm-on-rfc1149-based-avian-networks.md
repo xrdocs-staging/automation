@@ -22,10 +22,9 @@ Nothing precludes using existing algorithms to compute a solution to the congest
 
 ### Tactical Policy Deployment
 
-Different diversion methods, including the use of food or the introduction of avian prey, will need to be evaluated for their effectiveness. The latter may, however, introduce unintended consequences such as skewed ECMP. Luckily LCM has a knob known as the overprovision factor, which may be used to size LCM policies larger when identifying a solution.
+Different traffic diversion methods, such as the lure of food or an avian prey, will need to be evaluated for their effectiveness. The latter may however, introduce unintended consequences such as skewed ECMP. Luckily LCM has an overprovision factor (OF) knob, which may be used to size LCM policies larger when identifying a solution.
 
-### Tactical Policy Management
+### Continued Monitoring and Management
 
-LCM will continue to monitor and evaluate if the policy effectively mitigates congestion and may make additional recommendations to refine the solution, such as making changes to existing recommendations. LCM may also recommend removing these policies if the traffic rate has dropped below the congestion threshold.
-
+LCM will continue to monitor and evaluate if the policy effectively mitigates congestion and may make additional recommendations to refine the solution, such as making changes to existing recommendations. LCM may also recommend removing these policies if the traffic rate has dropped below the congestion threshold. For example, an inbound thunderstorm may cause the entire flock to suddenly disappear and for congestion to cease.
 
