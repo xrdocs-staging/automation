@@ -48,15 +48,15 @@ In the example below, we load the plan file containing a model of the topology, 
 
 ![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-autobw.png) 
 
-In the next plan file, we remove the RSVP-TE LSPs and rely solely on IGP for routing. We perform the same simulation analysis and find that 23.53% of the failures will cause the interfaces to be oversubscribed. This shows that the RSVP-TE LSPs does help lower the percentage of failure cases which causes the interfaces to be oversubscribed. However, this is not the end of the story.
+Next, we remove the RSVP-TE LSPs and rely on IGP routing. We performed a simulation analysis and found that now, 23.53% of the failures will cause the interfaces to be oversubscribed. This shows that the RSVP-TE LSPs do help lower the percentage of failure cases, which causes the interfaces to be oversubscribed. However, this is only part of the story.
 
 ![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-removed.png) 
 
-What if we perform further optimization in the network by using IGP Metric Optimization? In this case, we select the options to minimize the maximum interface utilization in the face of node and link failures.
+Crosswork Planning's toolset encompasses various optimizers that can be used to better the performance of networks under stressful conditions. We leverage IGP Metric Optimization to provide optimal link metrics to minimize the maximum interface utilization for failure scenarios.
 
 ![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-removed-mopt-next.png) 
 
-We run the same simulation analysis on the resultant network model with the optimized IGP metrics and observe that none of the failure cases will lead to any links being oversubscribed.
+We perform simulation analysis on the optimized network model and observe that now none of the failure cases will lead to any links being oversubscribed.
 
 ![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-removed-mopt.png) 
 
