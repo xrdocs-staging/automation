@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 date: '2024-08-15 00:00 +0800'
 title: Introduction to Crosswork Planning
 tags:
@@ -9,7 +9,7 @@ tags:
   - Automation
   - Design
   - Capacity Planning
-author: Lim Fung
+author: Fung Lim
 excerpt: Introducing Crosswork Planning
 ---
 {% include toc %}
