@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 date: '2024-08-15 00:00 +0800'
 title: Using Crosswork Planning to pave the way for Segment Routing migration
 tags:
