@@ -25,7 +25,7 @@ Service Providers and large enterprises who have considered migrating to segment
 
 Crosswork Planning provides capabilities for network model building and simulation. It provides predictive simulation for a wide range of use cases including routing protocol migration and network migration scenarios. In this tutorial, we explore how Crosswork Planning may be used to model an existing network with full meshed RSVP-TE tunnels and if migrating this network to segment-routing will allow us to provide the same performance and resiliency prior.
 
-The methodology described in this tutorial was performed on real-world network models. However, this document uses modified sample network files for the purpose of illustration due to customer confidentiality. The considerations and modelling of the network through intermediate states with the co-existence of RSVP-TE and segment routing is outside the scope of this document.
+The methodology described in this tutorial was performed on real-world network models. However, this document uses modified sample network files for the purpose of illustration due to customer confidentiality. Please note that additional considerations in migrating the network through intermediate states e.g. co-existence of RSVP-TE and segment routing is outside the scope of this document.
 
 
 # Key Benefits
