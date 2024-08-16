@@ -29,9 +29,9 @@ The methodology described in this tutorial was performed on real-world network m
 
 # Considerations
 
-As customers move to segment routing, we want to move away from the full-mesh RSVP-TE tunnel mindset since doing so will not allow us to reap the benefits of overall operational simplification. The IGP shortest path should be used to carry the bulk of the best effort traffic, leveraging on nature ECMP where available. With proper capacity planning and optimization, it should deem full mesh RSVP-TE tunnel deployments unnecessary for the majority of the cases.
+As customers move to segment routing, we want to move away from the full-mesh RSVP-TE tunnel mindset since doing so will not allow us to reap the benefits of overall operational simplification. The IGP shortest path should be used to carry the bulk of the best effort traffic, leveraging on natural ECMP where available. With proper capacity planning and optimization, it should deem full mesh RSVP-TE tunnel deployments unnecessary for select customer cases. This is especially so if the customer network has multiple redundant paths providing for natural ECMP and has been engineered with proper capacity planning.
 
-Now if there are traffic which needs to be treated with special intent (e.g. low-latency, or to avoid certain links, countries or continent) then Segment Routing policies or FlexAlgo may be used for these traffic types. These are use cases which are not related to bandwidth and are the exception rather than the norm.
+If there are traffic which needs to be treated with special intent (e.g. low-latency, or to avoid certain links, countries or continent) then Segment Routing policies or FlexAlgo may be used for these traffic types. These are use cases which are not related to bandwidth and are the exception rather than the norm.
 
 We are mindful that there could be scenarios where capacity planning and optimization could not have anticipated (e.g. multiple links going down at the same time, flash crowd, or unexpected failures occuring concurrently when nodes/links are taken out for maintenance). This is where tactical traffic engineering capabilities such as that provided by Local Congestion Mitigation (LCM) should help. 
 
@@ -55,13 +55,11 @@ What if we perform further optimization in the network by using IGP Metric Optim
 
 ![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-removed-mopt-next.png) 
 
-We perform simulation analysis on the plan file with the optimized IGP metrics. 
-
+We run the same simulation analysis on the resultant network model with the optimized IGP metrics and observe that none of the failure cases will lead to any links being oversubscribed.
 
 ![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-removed-mopt.png) 
 
 
-...
 
 
 # Conclusion
