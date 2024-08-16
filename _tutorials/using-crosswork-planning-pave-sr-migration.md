@@ -64,6 +64,10 @@ We run the same simulation analysis on the resultant network model with the opti
 
 # Conclusion
 
-Crosswork Planning provides an intuitive, easy to use web based interface for operators to proactively manage their network infrastructure through a suite of tools which provides enhanced visibility and insights, improved performance, reliability, and resiliency, and efficient capacity management just to name a few.
+When planning for migration from full-mesh RSVP-TE to Segment Routing, a worth-while exercise would be to build a model of the network, complete with topology, LSPs and traffic. The demand matrix could be obtained using demand deduction if a direct measurement is not possible, or not available. This would allow us to see how traffic would flow, and what possible issues we may face in the event of failures, or if the existing demands continue to grow. With this model, we may perform optimisations to provide for a better balance of traffic across the network (e.g. minimize the maximum interface utilization).
+
+With this model, we can run simulation to compare the worst case utilization for the original network with full-mesh RSVP-TE tunnels, and after these tunnels have been removed. Most of the time, networks with sufficient capacity should now see the removal of RSVP-TE Auto bandwidth being worst off. This is especially after further optimizations has been performed on the network. This allows us to conclude that removing the full-mesh RSVP-TE tunnels does not make the network any worst off when it comes to worst case utilization.
+
+Crosswork Planning provides intuitive, easy to use suite of tools for operators to proactively manage their network infrastructure. This helps provides enhanced visibility and insights, improved performance, reliability, and resiliency, and efficient capacity management.
 
 For more information, please refer to the Crosswork Planning Installation Guide, Collection Setup and Administration Guide, and Design User Guide.
