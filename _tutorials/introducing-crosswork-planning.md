@@ -35,7 +35,7 @@ This tutorial provides a brief overview of Crosswork Planning’s user interface
 
 ## Dashboard ##
 
-After Crosswork Planning has been installed successfully, the user can interact with Crosswork Planning using a web based interface. Upon login, the user will be presented with a Dashboard which presents an overall summary of its status.
+After Crosswork Planning is installed, the user can interact with Crosswork Planning using a web based interface. Upon login, the user will be presented with a Dashboard which presents an overall summary of its status.
 
 ![Crosswork Planning Dashboard]({{site.baseurl}}/images/intro-cp-dashboard-001.png)
 
