@@ -60,6 +60,17 @@ The Job Manager selection allows us to view the details and status of Jobs, as w
 
 ![Crosswork Planning Network Models]({{site.baseurl}}/images/intro-cp-job-manager-001.png)
 
+The Collector selection allow us to configure network collection and model buidling. The user may select different methods of collection for basic and advanced model building as well as for traffic and demands. The collection process is designed to be extensible, allowing the use of scripts for custom collection.
+
+Collections may be scheduled at a user specified cadence, with the network models archived.
+
+![Crosswork Planning Network Models]({{site.baseurl}}/images/intro-cp-collection-001.png)
+
+![Crosswork Planning Network Models]({{site.baseurl}}/images/intro-cp-collection-002.png)
+
+
+
+
 
 
 
