@@ -17,7 +17,7 @@ excerpt: Introducing Crosswork Planning
 # Overview
 
 
-Crosswork Planning, the latest addition to the Crosswork Automation  suite, provides a comprehensive suite of tools to empower operators to proactively manage their network infrastructure. These tools offer capabilities, including network discovery, analysis, simulation, and optimization.
+Crosswork Planning, the latest addition to the Crosswork Automation  suite, provides a comprehensive suite of tools to empower operators to proactively manage their network infrastructure. These tools offer capabilities for network discovery, analysis, simulation, and optimization.
 
 With Crosswork Planning, operators can unlock a host of benefits, including enhanced visibility and insights, improved performance, reliability, and resiliency, and efficient capacity management.
 
