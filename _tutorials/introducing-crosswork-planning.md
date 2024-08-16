@@ -46,6 +46,20 @@ If we have configured collection with archival, the Local archive subection will
 
 ![Crosswork Planning Network Models]({{site.baseurl}}/images/intro-cp-network-models-archive-001.png)
 
+The Network Design selection allows us to access the Design Application. Using the Design Application, we can visualize an existing network model (plan-file), run simulations as well as perform optimizations for example.
+
+![Crosswork Planning Network Models]({{site.baseurl}}/images/intro-cp-network-design-main-001.png)
+
+Some of the simulation capabilities include predictive What-If analysis, and Simulation Analysis with Worse Case Traffic view.
+
+![Crosswork Planning Network Models]({{site.baseurl}}/images/intro-cp-network-design-demands-001.png)
+
+![Crosswork Planning Network Models]({{site.baseurl}}/images/intro-cp-network-design-sim-analysis-001.png)
+
+
+
+
+
 
 
 
