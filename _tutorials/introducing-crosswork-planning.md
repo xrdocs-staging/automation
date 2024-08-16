@@ -50,11 +50,18 @@ The Network Design selection allows us to access the Design Application. Using t
 
 ![Crosswork Planning Network Models]({{site.baseurl}}/images/intro-cp-network-design-main-001.png)
 
-Some of the simulation capabilities include predictive What-If analysis, and Simulation Analysis with Worse Case Traffic view.
+Some of the simulation capabilities include predictive What-If analysis, and Simulation Analysis with Worst Case Traffic view.
 
 ![Crosswork Planning Network Models]({{site.baseurl}}/images/intro-cp-network-design-demands-001.png)
 
 ![Crosswork Planning Network Models]({{site.baseurl}}/images/intro-cp-network-design-sim-analysis-001.png)
+
+The Job Manager selection allows us to view the details and status of Jobs, as well as to provide a means of submitting CLI or scripted jobs. These jobs will be executed asynchornously on the system and the results of jobs are self-contained in an output tar archive.
+
+![Crosswork Planning Network Models]({{site.baseurl}}/images/intro-cp-job-manager-001.png)
+
+
+
 
 
 
