@@ -62,12 +62,14 @@ We perform simulation analysis on the optimized network model and observe that n
 
 Very broadly speaking, some networks are designed with good redundancy (i.e. meshy topology) with multiple parallel paths allowing for equal cost multipath, and has sufficient capacity to deal with failure scenarios. Other networks may have very limited capacity and links and are not able to upgrade capacity in accordance to requirements, and have multiple links over capacity. In the latter case RSVP-TE may serves more as a band-aid to resolve issues which could otherwise be handled with capacity planning and network best practices. 
 
+In the segment routing space, toolsets such as Local Congestion Mitigation help operators deal with these exceptions on a as needed basis. 
+
 # Conclusion
 
-When planning for migration from full-mesh RSVP-TE to Segment Routing, a worth-while exercise would be to build a model of the network, complete with topology, LSPs and traffic. The demand matrix could be obtained using demand deduction if a direct measurement is not possible, or not available. This would allow us to see how traffic would flow, and what possible issues we may face in the event of failures, or if the existing demands continue to grow. With this model, we may perform optimisations to provide for a better balance of traffic across the network (e.g. minimize the maximum interface utilization).
+When planning for migration from full-mesh RSVP-TE to Segment Routing, a worth-while exercise would be to build an accurate model of the network, complete with topology, LSPs and traffic. This would allow us to see how traffic would flow, and what possible issues we may face in the event of failures, or if the existing demands continue to grow. 
 
-With this model, we can run simulation to compare the worst case utilization for the original network with full-mesh RSVP-TE tunnels, and after these tunnels have been removed. Most of the time, networks with sufficient capacity should now see the removal of RSVP-TE Auto bandwidth being worst off. This is especially after further optimizations has been performed on the network. This allows us to conclude that removing the full-mesh RSVP-TE tunnels does not make the network any worst off when it comes to worst case utilization.
+With this model, we may perform optimisations to minimize the maximum interface utilization in the event of failures. We can run simulation to compare the worst case interface utilization for both RSVP-TE and segment routing scenarios. Networks with sufficient capacity and resiliency should not see the removal of RSVP-TE Auto bandwidth being worst off. This is especially after optimizations has been performed on the network. 
 
-Crosswork Planning provides intuitive, easy to use suite of tools for operators to proactively manage their network infrastructure. This helps provides enhanced visibility and insights, improved performance, reliability, and resiliency, and efficient capacity management.
+Crosswork Planning provides an intuitive, easy to use suite of tools for operators to proactively manage their network infrastructure and helps to provide enhanced visibility and insights, improved performance, reliability, and resiliency, and efficient capacity management.
 
 For more information, please refer to the Crosswork Planning Installation Guide, Collection Setup and Administration Guide, and Design User Guide.
