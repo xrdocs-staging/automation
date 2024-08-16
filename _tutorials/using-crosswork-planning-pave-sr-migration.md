@@ -51,6 +51,10 @@ After RSVP Auto Bandwidth is removed.
 
 ![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-removed.png) 
 
+After IGP metric optimisation.
+
+![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-removed-mopt.png) 
+
 
 ...
 
