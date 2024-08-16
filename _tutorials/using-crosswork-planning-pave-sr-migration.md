@@ -51,11 +51,11 @@ In the next plan file, we remove the RSVP-TE LSPs and rely solely on IGP for rou
 
 ![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-removed.png) 
 
-What if we perform further optimization in the network by using IGP Metric Optimization? In this case, we select the options 
-
-After IGP metric optimisation.
+What if we perform further optimization in the network by using IGP Metric Optimization? In this case, we select the options to minimize the maximum interface utilization in the face of node and link failures.
 
 ![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-removed-mopt-next.png) 
+
+We perform simulation analysis on the plan file with the optimized IGP metrics. 
 
 
 ![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-removed-mopt.png) 
