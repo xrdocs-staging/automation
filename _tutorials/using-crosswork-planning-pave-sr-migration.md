@@ -47,6 +47,8 @@ Next, we leverage on Crosswork Planning Design to perform various simulations to
 ![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-autobw.png) 
 
 
+![Crosswork Planning Network Models]({{site.baseurl}}/images/intro-cp-job-manager-001.png)
+
 ...
 
 
