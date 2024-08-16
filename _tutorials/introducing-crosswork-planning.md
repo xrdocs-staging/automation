@@ -33,10 +33,13 @@ This tutorial provides an overview of Crosswork Planning’s user interface.
 
 # Introduction to Crosswork Planning User Interface
 
+## Dashboard ##
+
 After Crosswork Planning has been installed successfully, the user can interact with Crosswork Planning using a web based interface. Upon login, the user will be presented with a Dashboard which presents an overall summary of its status.
 
 ![Crosswork Planning Dashboard]({{site.baseurl}}/images/intro-cp-dashboard-001.png)
 
+## Network Models ##
 
 The Network Models selection allows us to create new plan files and import existing plan files to Crosswork Planning. It also provides us with the ability to Open, Make a copy, Download or Delete the plan files. 
 
@@ -45,6 +48,8 @@ The Network Models selection allows us to create new plan files and import exist
 If we have configured collection with archival, the Local archive subection will allow us to view the list of archived plan files for the configured collections.
 
 ![Crosswork Planning Network Models]({{site.baseurl}}/images/intro-cp-network-models-archive-001.png)
+
+## Network Design ##
 
 The Network Design selection allows us to access the Design Application. Using the Design Application, we can visualize an existing network model (plan-file), run simulations as well as perform optimizations for example.
 
@@ -56,17 +61,43 @@ Some of the simulation capabilities include predictive What-If analysis, and Sim
 
 ![Crosswork Planning Network Models]({{site.baseurl}}/images/intro-cp-network-design-sim-analysis-001.png)
 
+## Job Manager ##
+
 The Job Manager selection allows us to view the details and status of Jobs, as well as to provide a means of submitting CLI or scripted jobs. These jobs will be executed asynchornously on the system and the results of jobs are self-contained in an output tar archive.
 
 ![Crosswork Planning Network Models]({{site.baseurl}}/images/intro-cp-job-manager-001.png)
 
+## Collector ##
+
 The Collector selection allow us to configure network collection and model buidling. The user may select different methods of collection for basic and advanced model building as well as for traffic and demands. The collection process is designed to be extensible, allowing the use of scripts for custom collection.
 
-Collections may be scheduled at a user specified cadence, with the network models archived.
+Collections may be scheduled at a user specified cadence, with the network models archived. These models may be opened by Design for simulation and optimization, or exported from the system.
 
 ![Crosswork Planning Network Models]({{site.baseurl}}/images/intro-cp-collection-001.png)
 
 ![Crosswork Planning Network Models]({{site.baseurl}}/images/intro-cp-collection-002.png)
+
+## Licensing ##
+
+The Licensing selection allows the user to register the system to Cisco Smart Licensing, or to configure the system for evaluation mode.
+
+![Crosswork Planning Network Models]({{site.baseurl}}/images/intro-cp-smart-license-001.png)
+
+
+## Alerts ##
+
+The Alerts selection allows the user to view system alarms and events and could be useful for gaining visibility to the overall operations and performance of the system, and to view any notifications which may require user action.
+
+![Crosswork Planning Network Models]({{site.baseurl}}/images/intro-cp-alerts-001.png)
+
+
+## Administration ##
+
+The Administration selection allows the user to view a status summary of the installed platform and applications. This selection also allows users to perform backup and restore, manage certificates, users and roles as well as to edit system settings.
+
+![Crosswork Planning Network Models]({{site.baseurl}}/images/intro-cp-admin-001.png)
+
+![Crosswork Planning Network Models]({{site.baseurl}}/images/intro-cp-admin-settings-001.png)
 
 
 
