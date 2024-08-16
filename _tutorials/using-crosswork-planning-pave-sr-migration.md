@@ -28,7 +28,13 @@ Crosswork Planning provides capabilities for network model building and simulati
 The methodology described in this tutorial was performed on real-world network models. However, this document uses modified sample network files for the purpose of illustration due to customer confidentiality. Please note that additional considerations in migrating the network through intermediate states e.g. co-existence of RSVP-TE and segment routing is outside the scope of this document.
 
 
-# Key Benefits
+# Considerations
+
+As customers move to segment routing, we want to move away from the full-mesh RSVP-TE tunnel mindset since doing so will not allow us to reap the benefits of overall operational simplification. The IGP shortest path should be used to carry the bulk of the best effort traffic, leveraging on nature ECMP where available. With proper capacity planning and optimization, it should deem full mesh RSVP-TE tunnel deployments unnecessary. 
+
+Now if there are traffic which needs to be treated with special intent (e.g. low-latency, or to avoid certain links, countries or continent) then Segment Routing policies or FlexAlgo may be used for these traffic types. These are use cases which are not related to bandwidth.
+
+
 
 ## Dashboard ##
 
