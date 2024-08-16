@@ -27,7 +27,7 @@ With Crosswork Planning, operators can unlock a host of benefits, including enha
 
 **Improved Performance, Reliability, and Resiliency:** At the core of Crosswork Planning is a predictive AI-based simulation engine that aims to mimic real-world behavior, allowing for a digital twin representation of the deployed network. These capabilities may be used to identify potential issues and perform optimizations that could improve the quality of experience for end users. It can help identify possible weaknesses in the network and provide actionable insights to enhance reliability and resiliency.
 
-**Capacity Management:** Crosswork Planning provides comprehensive toolsets for a holistic approach to capacity management. This helps the operators evaluate the most effective physical topology and how much capacity (and where) is required to support continued growth. Crosswork Planning also provides tools for offline traffic optimization to allow for the most efficient routing of demands, allowing operators to maximize their return on investment (ROI) on their deployed network infrastructure.
+**Capacity Management:** Crosswork Planning provides comprehensive toolsets for a holistic approach to capacity management. These helps the operators evaluate the most effective physical topology and how much capacity (and where) is required to support continued growth. Crosswork Planning also provides tools for offline traffic optimization to allow for the most efficient routing of demands, allowing operators to maximize their return on investment (ROI) on their deployed network infrastructure.
 
 This tutorial provides a brief overview of Crosswork Planning’s user interface.
 
