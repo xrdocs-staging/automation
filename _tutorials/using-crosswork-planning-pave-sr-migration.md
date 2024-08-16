@@ -32,7 +32,16 @@ The methodology described in this tutorial was performed on real-world network m
 
 As customers move to segment routing, we want to move away from the full-mesh RSVP-TE tunnel mindset since doing so will not allow us to reap the benefits of overall operational simplification. The IGP shortest path should be used to carry the bulk of the best effort traffic, leveraging on nature ECMP where available. With proper capacity planning and optimization, it should deem full mesh RSVP-TE tunnel deployments unnecessary for the majority of the cases.
 
-Now if there are traffic which needs to be treated with special intent (e.g. low-latency, or to avoid certain links, countries or continent) then Segment Routing policies or FlexAlgo may be used for these traffic types. These are use cases which are not related to bandwidth.
+Now if there are traffic which needs to be treated with special intent (e.g. low-latency, or to avoid certain links, countries or continent) then Segment Routing policies or FlexAlgo may be used for these traffic types. These are use cases which are not related to bandwidth and are the exception rather than the modus operandi. 
+
+We are mindful that there could be scenarios where capacity planning and optimization could not have anticipated (e.g. multiple links going down at the same time, flash crowd, or unexpected failures occuring concurrently when nodes/links are taken out for maintenance). This is where tactical traffic engineering capabilities such as that provided by Local Congestion Mitigation (LCM) should help. 
+
+The deployment of LCM allows us to route the minimum amount of traffic away from the congested link (to bring it below the congestion threshold) in a transient manner for as long as the duration of the event. The rationale for doing so is to leveraging on spare capacity elsewhere to carry these best effort traffic (potentially over a longer path) which would otherwise be discarded.
+
+
+
+
+
 
 
 
