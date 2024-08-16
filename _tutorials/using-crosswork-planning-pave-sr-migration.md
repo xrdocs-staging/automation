@@ -41,7 +41,7 @@ The deployment of LCM allows us to route the minimum amount of traffic away from
 
 In the modelling exercise, an accurate model of the network deployed with RSVP-TE autobandwidth tunnels is required to be built. Crosswork Planning can assist in the network collection and model building process. This would provide us with a network model (plan file) complete with topology, LSPs and traffic. 
 
-Once we have the above model, we can run various simulations to characterise the network, such as that including simulatio analysis which would fail sequence of links and nodes in the network which would provide us with worst case traffic for all the interfaces on the network. It will also allow us to determine which failure scenarios lead to these worst case traffic in the network.
+Once we have the above model, we can leverage on Crosswork Planning Design to perform various simulations in order to characterise the network. This can include using simulation analysis to fail sequence of links and nodes to provide us with the worst case traffic utilization for all the links. It will also allow us to determine which failure scenarios will lead to these worst case traffic values in the network.
 
 
 
