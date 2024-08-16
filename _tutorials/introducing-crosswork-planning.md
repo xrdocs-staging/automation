@@ -1,7 +1,7 @@
 ---
 published: true
 date: '2024-08-15 00:00 +0800'
-title: Introduction to Crosswork Planning
+title: Introduction to Crosswork Planning user interface
 tags:
   - cisco
   - WAE
