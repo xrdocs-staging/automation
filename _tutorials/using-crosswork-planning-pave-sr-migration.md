@@ -43,15 +43,20 @@ In the modelling exercise, we build an accurate model of the network deployed wi
 
 Next, we leverage on Crosswork Planning Design to perform various simulations to characterise the network and its failure modes. This may include using simulation analysis to fail combinations of nodes and links to provide the worst case traffic utilization for each links. The same analysis will also allow us to gain insights as to which link or node failures will lead to these worst case traffic utilization.
 
-In the example below, we perform a simulation analysis showing the worst case utilization in the case of the deployed RSVP Auto Bandwidth network.
+In the example below, we load the plan file containing the model of the topo, LSPs and traffic and perform a simulation analysis in order to obtain the worst case interface utilization. The report shows that 5.88% of the failure cases will cause the interfaces to be oversubscribed.
 
 ![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-autobw.png) 
 
-After RSVP Auto Bandwidth is removed.
+In the next plan file, we remove the RSVP-TE LSPs and rely solely on IGP for routing. We perform the same simulation analysis and find that 23.53% of the failures will cause the interfaces to be oversubscribed. This shows that the RSVP-TE LSPs does help lower the percentage of failure cases which causes the interfaces to be oversubscribed. However, this is not the end of the story.
 
 ![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-removed.png) 
 
+What if we perform further optimization in the network by using IGP Metric Optimization? In this case, we select the options 
+
 After IGP metric optimisation.
+
+![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-removed-mopt-next.png) 
+
 
 ![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-removed-mopt.png) 
 
