@@ -33,9 +33,24 @@ This tutorial provides an overview of Crosswork Planning’s user interface.
 
 # Introduction to Crosswork Planning User Interface
 
-After Crosswork Planning has been installed successfully, the user can interact with Crosswork Planning a web based browser interface. Upon login, the user will be presented with a Dashboard which presents an overall summary of its status.
+After Crosswork Planning has been installed successfully, the user can interact with Crosswork Planning using a web based interface. Upon login, the user will be presented with a Dashboard which presents an overall summary of its status.
 
 ![Crosswork Planning Dashboard]({{site.baseurl}}/images/intro-cp-dashboard-001.png)
+
+
+The Network Models selection allows us to create new plan files and import existing plan files to Crosswork Planning. It also provides us with the ability to Open, Make a copy, Download or Delete the plan files. 
+
+![Crosswork Planning Network Models]({{site.baseurl}}/images/intro-cp-network-models-001.png)
+
+If we have configured collection with archival, the Local archive subection will allow us to view the list of archived plan files for the configured collections.
+
+![Crosswork Planning Network Models]({{site.baseurl}}/images/intro-cp-network-models-archive-001.png)
+
+
+
+
+
+
 
 
 
