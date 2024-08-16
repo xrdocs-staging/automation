@@ -42,7 +42,7 @@ The key benefit of adopting a web based interface is to allow for the applicatio
 
 ## Network Models ##
 
-The Network Models selection allows us to create new plan files and import existing plan files to Crosswork Planning. It also provides us with the ability to Open, Make a copy, Download or Delete the plan files. 
+The Network Models selection allows us to create new plan files and import existing plan files to Crosswork Planning. It also provides us with the ability to Open, Make a copy, Download or Delete  plan files. 
 
 ![Crosswork Planning Network Models]({{site.baseurl}}/images/intro-cp-network-models-001.png)
 
@@ -58,7 +58,7 @@ The Network Design selection allows us to access the Design Application. Using t
 
 ![Crosswork Planning Network Models]({{site.baseurl}}/images/intro-cp-network-design-main-001.png)
 
-Some of the simulation capabilities include predictive What-If analysis, and Simulation Analysis with Worst Case Traffic view.
+Some of the simulation capabilities available in Crosswork Planning includes predictive What-If analysis, and Simulation Analysis with Worst Case Traffic view.
 
 ![Crosswork Planning Network Models]({{site.baseurl}}/images/intro-cp-network-design-demands-001.png)
 
