@@ -51,6 +51,8 @@ If we have configured collection with archival, the Local archive subection will
 
 ![Crosswork Planning Network Models]({{site.baseurl}}/images/intro-cp-network-models-archive-001.png)
 
+In the future, we may extend support for Network Models to leverage on the use of cloud based storage for closer collaboration.
+
 ## Network Design ##
 
 The Network Design selection allows us to access the Design Application. Using the Design Application, we can visualize an existing network model (plan-file), run simulations as well as perform optimizations for example.
