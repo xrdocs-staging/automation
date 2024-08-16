@@ -65,6 +65,8 @@ Some of the simulation capabilities include predictive What-If analysis, and Sim
 
 ![Crosswork Planning Network Models]({{site.baseurl}}/images/intro-cp-network-design-sim-analysis-001.png)
 
+Because Crosswork Planning is designed to be a multi-user system, a team of planners and engineers can now leverage on the increased compute footprint to perform simulation and optimizations concurrently, on different network models.
+
 ## Job Manager ##
 
 The Job Manager selection allows us to view the details and status of Jobs, as well as to provide a means of submitting CLI or scripted jobs. These jobs will be executed asynchornously on the system and the results of jobs are self-contained in an output tar archive.
