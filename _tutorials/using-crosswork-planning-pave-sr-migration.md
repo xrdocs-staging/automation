@@ -59,8 +59,7 @@ We run the same simulation analysis on the resultant network model with the opti
 
 ![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-removed-mopt.png) 
 
-
-
+Very broadly speaking, some networks are designed with good redundancy (i.e. meshy topology) with multiple parallel paths allowing for equal cost multipath, and has sufficient capacity to deal with failure scenarios. Other networks may have very limited capacity and links and are not able to upgrade capacity in accordance to requirements, and have multiple links over capacity. In the latter case RSVP-TE may serves more as a band-aid to resolve issues which could otherwise be handled with capacity planning and network best practices. 
 
 # Conclusion
 
