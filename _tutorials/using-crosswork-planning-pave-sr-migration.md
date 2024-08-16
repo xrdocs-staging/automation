@@ -39,11 +39,12 @@ The deployment of LCM allows us to divert the minimum amount of traffic away fro
 
 # Methodology
 
-In the modelling exercise, we build an accurate model of the network deployed with RSVP-TE autobandwidth tunnels. Crosswork Planning can assist in the network collection and model building process. This would provide us with a network model (plan file) complete with topology, LSPs and traffic, that is representative of the network with RSVP-TE autobandwidth tunnels.
+In the modeling exercise, we aim to build an accurate network model with RSVP-TE auto bandwidth tunnels. Crosswork Planning can assist in the network collection and model-building process. This would provide us with a network model (plan file) complete with topology, LSPs, and traffic that is representative of the network with RSVP-TE auto bandwidth tunnels.
 
-Next, we leverage on Crosswork Planning Design to perform various simulations to characterise the network and its failure modes. This may include using simulation analysis to fail combinations of nodes and links to provide the worst case traffic utilization for each links. The same analysis will also allow us to gain insights as to which link or node failures will lead to these worst case traffic utilization.
+Next, we leverage Crosswork Planning Design to perform various simulations to characterize the network and its failure modes. This may include using simulation analysis to fail combinations of nodes and links to provide the worst-case traffic utilization for each link. The same analysis will also allow us to gain insights into which link or node failures will lead to these worst-case traffic utilization.
 
-In the example below, we load the plan file containing a model of the topology, LSPs and traffic and perform a simulation analysis in order to obtain the worst case interface utilization. The report shows that 5.88% of the failure cases will cause the interfaces to be oversubscribed.
+In the example below, we load the plan file containing a model of the topology, LSPs, and traffic and perform a simulation analysis to obtain the worst-case interface utilization. The report shows that 5.88% of the failure cases will cause the interfaces to be oversubscribed.
+
 
 ![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-autobw.png) 
 
