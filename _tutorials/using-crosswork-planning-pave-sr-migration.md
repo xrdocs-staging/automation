@@ -18,7 +18,6 @@ excerpt: Crosswork Planning Segment Routing migration
 
 # Overview
 
-
 Segment Routing has been deployed in many customers till date. The benefits of Segment Routing cannot be overstated - It offers simplification of the network with no maintenance of network state, with most of the best-effort traffic being carried by IGP shortest path, leveraging on equal cost multi-path for load balancing. It minimizes the number of protocols required for operations; In addition, it brings enhanced flexibility and resiliency and at the same time introduces operational simplification.
 
 Service Providers and large enterprises who have considered migrating to segment routing as an end state has traditionally been concerned about maintaining the same quality of experience for their customers, especially those who have deployed full meshed RSVP-TE auto bandwidth tunnels. Some of these customers are concerned that without the deployment of auto bandwidth tunnels, if the network would be able to provide the same resiliency and responsiveness in dealing with changing network conditions. 
@@ -40,7 +39,9 @@ The deployment of LCM allows us to route the minimum amount of traffic away from
 
 # Methdology
 
+In the modelling exercise, an accurate model of the network deployed with RSVP-TE autobandwidth tunnels is required to be built. Crosswork Planning can assist in the network collection and model building process. This would provide us with a network model (plan file) complete with topology, LSPs and traffic. 
 
+Once we have the above model, we can run various simulations to characterise the network, such as that including simulatio analysis which would fail sequence of links and nodes in the network which would provide us with worst case traffic for all the interfaces on the network. It will also allow us to determine which failure scenarios lead to these worst case traffic in the network.
 
 
 
