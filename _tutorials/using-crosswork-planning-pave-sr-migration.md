@@ -29,13 +29,13 @@ The methodology described in this tutorial was performed on real-world network m
 
 # Considerations
 
-As customers move to segment routing, we want to move away from the full-mesh RSVP-TE tunnel mindset since doing so will not allow us to reap the benefits of overall operational simplification. The IGP shortest path should be used to carry the bulk of the best effort traffic, leveraging on natural ECMP where available. With proper capacity planning and optimization, it should deem full mesh RSVP-TE tunnel deployments unnecessary for select customer cases. This is especially so if the customer network has multiple redundant paths providing for natural ECMP and has been engineered with proper capacity planning.
+As customers transition to segment routing, we advocate a shift from the full-mesh RSVP-TE tunnel mindset. This transition promises significant benefits in terms of operational simplification. By embracing the use of IGP shortest path to handle the bulk of best-effort traffic and with proper capacity planning and optimization, full-mesh RSVP-TE tunnels should not be necessary for most customer cases. This is particularly true for customer networks designed with high levels of redundancy and robust capacity planning.
 
-If there are traffic which needs to be treated with special intent (e.g. low-latency, or to avoid certain links, countries or continent) then Segment Routing policies or FlexAlgo may be used for these traffic types. These are use cases which are not related to bandwidth and are the exception rather than the norm.
+For traffic that requires special treatment, such as low-latency or avoidance of specific links, countries, or continents, we have the flexibility of using Segment Routing policies or FlexAlgo. These tools are designed for use cases that go beyond bandwidth considerations, providing a robust solution for handling exceptions.
 
-We are mindful that there could be scenarios where capacity planning and optimization could not have anticipated (e.g. multiple links going down at the same time, flash crowd, or unexpected failures occuring concurrently when nodes/links are taken out for maintenance). This is where tactical traffic engineering capabilities such as that provided by Local Congestion Mitigation (LCM) should help. 
+We are mindful that there could be scenarios where capacity planning and optimization could not have been anticipated (e.g., multiple links going down simultaneously, flash crowd, or unexpected failures occurring concurrently when nodes/links are taken out for maintenance). This is where tactical traffic engineering capabilities such as that provided by Local Congestion Mitigation (LCM) should help. 
 
-The deployment of LCM allows us to route the minimum amount of traffic away from the congested link (to bring it below the congestion threshold) in a transient manner for as long as the duration of the event. The rationale for doing so is to leveraging on spare capacity elsewhere to carry these best effort traffic (potentially over a longer path) which would otherwise be discarded.
+The deployment of LCM allows us to divert the minimum amount of traffic away from the congested link (to bring it below the congestion threshold) in a transient manner for as long as the duration of the event. The rationale for doing so is to leverage spare capacity elsewhere to carry this best-effort traffic (potentially over a longer path), which would otherwise be discarded.
 
 # Methodology
 
