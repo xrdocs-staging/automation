@@ -38,6 +38,9 @@ We are mindful that there could be scenarios where capacity planning and optimiz
 
 The deployment of LCM allows us to route the minimum amount of traffic away from the congested link (to bring it below the congestion threshold) in a transient manner for as long as the duration of the event. The rationale for doing so is to leveraging on spare capacity elsewhere to carry these best effort traffic (potentially over a longer path) which would otherwise be discarded.
 
+# Methdology
+
+
 
 
 
