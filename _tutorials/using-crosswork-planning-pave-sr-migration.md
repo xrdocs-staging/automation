@@ -49,11 +49,13 @@ In the example below, we load the plan file containing a model of the topology, 
 
 ![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-autobw.png) 
 
-Next, we remove the RSVP-TE LSPs and rely on IGP routing. We performed a simulation analysis and found that now, 23.53% of the failures will cause the interfaces to be oversubscribed. This shows that the RSVP-TE LSPs do help lower the percentage of failure cases, which causes the interfaces to be oversubscribed. However, this is only part of the story.
+Next, we remove the RSVP-TE LSPs and rely on IGP routing. We performed a simulation analysis and found that now, 23.53% of the failures will cause the interfaces to be oversubscribed. This shows that the RSVP-TE LSPs do help lower the percentage of failure cases which causes the interfaces to be oversubscribed. However, this is only part of the story.
+
+Another conclusion which can be drawn from the simulation analysis exercise might be the nature of failures which lead to worst case traffic utilization. If the failures are caused by failed link bundles for example, the probability of this happening would be lower as compared to a single port failure, provided the link bundle members are carried over diverse paths and terminate on different linecards on highly redundant routing platforms for example. 
 
 ![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-removed.png) 
 
-Crosswork Planning's toolset encompasses various optimizers that can be used to better the performance of networks under stressful conditions. We leverage IGP Metric Optimization to provide optimal link metrics to minimize the maximum interface utilization for failure scenarios.
+Crosswork Planning's toolset encompasses various optimizers that can be used to improve the performance of networks under stressful conditions. We leverage IGP Metric Optimization to provide optimal link metrics in order to minimize the maximum interface utilization for failure scenarios.
 
 ![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-removed-mopt-next.png) 
 
@@ -61,15 +63,15 @@ We perform simulation analysis on the optimized network model and observe that n
 
 ![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-removed-mopt.png) 
 
-Very broadly speaking, some networks are designed with good redundancy (i.e. meshy topology) with multiple parallel paths allowing for equal cost multipath, and has sufficient capacity to deal with failure scenarios. Other networks may have very limited capacity and links and are not able to upgrade capacity in accordance to requirements, and have multiple links over capacity. In the latter case RSVP-TE may serves more as a band-aid to resolve issues which could otherwise be handled with capacity planning and network best practices. 
+Very broadly speaking, some networks are designed with good redundancy (i.e. meshy topology) with multiple parallel paths allowing for equal cost multipath, and has sufficient capacity to deal with failure scenarios. Other networks may have very limited capacity and links and are not able to upgrade capacity in accordance to requirements, and have multiple links over capacity. In the latter case RSVP-TE may be serveing more as a band-aid to resolve issues which could otherwise be handled with capacity planning and network design best practices. 
 
-In the segment routing space, toolsets such as Local Congestion Mitigation help operators deal with these exceptions on a as needed basis. 
+In the segment routing space, toolsets such as Local Congestion Mitigation can help operators deal with these exceptions on a as needed basis. 
 
 # Conclusion
 
-When planning for migration from full-mesh RSVP-TE to Segment Routing, a worth-while exercise would be to build an accurate model of the network, complete with topology, LSPs and traffic. This would allow us to see how traffic would flow, and what possible issues we may face in the event of failures, or if the existing demands continue to grow. 
+When planning for migration from full-mesh RSVP-TE to Segment Routing, a worth-while exercise would be to build an accurate model of the network, complete with topology, LSPs and traffic. This  allows us to simulate how traffic would flow, and what possible issues we may face in the event of failures, or if the existing demands continue to grow. 
 
-With this model, we may perform optimisations to minimize the maximum interface utilization in the event of failures. We can run simulation to compare the worst case interface utilization for both RSVP-TE and segment routing scenarios. Networks with sufficient capacity and resiliency should not see the removal of RSVP-TE Auto bandwidth being worst off. This is especially after optimizations has been performed on the network. 
+Optimizations may be performed on this model to minimize the maximum interface utilization in failures scenarios. Simulations can be used to compare the worst case interface utilization for both RSVP-TE auto bandwidth and segment routing scenarios. Networks with sufficient capacity and resiliency should not see the removal of full meshed RSVP-TE auto bandwidth tunnels being worst off. 
 
 Crosswork Planning provides an intuitive, easy to use suite of tools for operators to proactively manage their network infrastructure and helps to provide enhanced visibility and insights, improved performance, reliability, and resiliency, and efficient capacity management.
 
