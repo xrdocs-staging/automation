@@ -40,12 +40,11 @@ LCM is designed to be used on best-effort traffic, leaving traffic which are alr
 
 # Methodology
 
-In the modeling exercise, we aim to build an accurate network model with RSVP-TE auto bandwidth tunnels. Crosswork Planning can assist in the network collection and model-building process. This would provide us with a network model (plan file) complete with topology, LSPs, and traffic that is an accurate representation of the network.
+In the modeling exercise, we aim to build an accurate network model with the current network with RSVP-TE auto bandwidth tunnels deployed. Crosswork Planning can assist in the network collection and model-building process. This would provide us with an accurate network model (plan file) complete with topology, LSPs, and traffic that is suitable for simulation studies.
 
 Next, we leverage Crosswork Planning Design to perform various simulations to characterize this network and its failure modes. This may include using simulation analysis to fail combinations of nodes and links to provide the worst-case traffic utilization for each link. The same analysis will also allow us to gain insights into which link or node failures will lead to these worst-case traffic utilization.
 
 In the example below, we load the plan file containing a model of the topology, LSPs, and traffic and perform a simulation analysis to obtain the worst-case interface utilization. The report shows that 5.88% of the failure cases will cause the interfaces to be oversubscribed.
-
 
 ![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-autobw.png) 
 
