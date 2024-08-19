@@ -41,7 +41,7 @@ In this document, we will cover the manual setup method of configuration.
 
 ## Setting up Credentials
 
-Credential profiles are required to be setup for Crosswork Planning to connect to network devices for the purpose of collection. There are two Credential Profiles which must be setup.
+Credential profiles are required to be setup for Crosswork Planning to connect to network devices for the purpose of collection. There are two profiles which must be setup.
 
 * Authentication Profile - This will need to contain the user credentials (username and password) which the Collector will use when connecting to the network devices. Authentication Profiles are used for collection methods which require device login, e.g. IGP based topology discovery where Crosswork Planning will login to the device to collect the IGP database
 * SNMP Profile - This needs to contain the SNMP type (v2c, v3) and credentials for connecting to the network devices. SNMP is used to enrich the topology information collected via IGP or SR-PCE (e.g. interface name and interface description). In addition, SNMP is used used by some collection methods such as SNMP based LSP collection and interface traffic collection.
@@ -50,8 +50,7 @@ Credential profiles are required to be setup for Crosswork Planning to connect t
 
 The creation of Network Profiles allows us to specify the authentication and SNMP profile used for accessing network devices. Optionally, a Node list may be created to specify the Management IP, SNMP profile and Authentication profile associated with a particular Node IP address. Specifying the Management IP is especially important if the Node IP which is typically the Router ID or Loopback0 address is not directly accessible from Crosswork Planning.
 
-In addition, Node filter may be specified to restrict the scope of collection to certain nodes only.
-
+In addition, Node filter may be used to restrict the scope of collection to certain nodes only. This may be specified using  an include or exclude list based on regular expressions, or individual IP addresses.
 
 
 # Methodology
