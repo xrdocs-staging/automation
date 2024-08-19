@@ -70,7 +70,7 @@ In the segment routing space, toolsets such as Local Congestion Mitigation can h
 
 When planning for migration from full-mesh RSVP-TE to Segment Routing, a worth-while exercise would be to build an accurate model of the network, complete with topology, LSPs and traffic. This  allows us to simulate how traffic would flow, and what possible issues we may face in the event of failures, or if the existing demands continue to grow. 
 
-Optimizations may be performed on this model to minimize the maximum interface utilization in failures scenarios. Simulations can be used to compare the worst case interface utilization for both RSVP-TE auto bandwidth and segment routing scenarios. Networks with sufficient capacity and resiliency should not see the removal of full meshed RSVP-TE auto bandwidth tunnels being worst off. 
+Optimizations may be performed on this model to minimize the maximum interface utilization under failures scenarios. Simulations can be used to compare the worst case interface utilization for both RSVP-TE auto bandwidth and segment routing scenarios. Networks with sufficient capacity and resiliency should not see the removal of full meshed RSVP-TE auto bandwidth tunnels being worst off. 
 
 Crosswork Planning provides an intuitive, easy to use suite of tools for operators to proactively manage their network infrastructure and helps to provide enhanced visibility and insights, improved performance, reliability, and resiliency, and efficient capacity management.
 
