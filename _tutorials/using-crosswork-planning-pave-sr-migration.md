@@ -50,7 +50,7 @@ In the example below, we load the plan file containing a model of the topology, 
 
 Next, we remove the RSVP-TE LSPs and rely on IGP routing. We performed a simulation analysis and found that now, 23.53% of the failures will cause the interfaces to be oversubscribed. This shows that the RSVP-TE LSPs do help lower the percentage of failure cases which causes the interfaces to be oversubscribed. However, this is only part of the story.
 
-Another conclusion which can be drawn from the simulation analysis exercise might be the nature of failures which lead to worst case traffic utilization. If the failures are caused by failed link bundles for example, the probability of this happening would be lower as compared to a single port failure, provided the link bundle members are carried over diverse paths and terminate on different linecards on highly redundant routing platforms for example. 
+Another conclusion which can be drawn from the simulation analysis exercise might be the nature of failures which lead to worst case traffic utilization. If the failures are caused by failed link bundles for example, the probability of this happening would be lower as compared to a single port failure, provided the link bundle members are carried over diverse paths and terminate on different linecards on distributed routing platforms which supports high availability.
 
 ![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-removed.png) 
 
