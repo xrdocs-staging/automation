@@ -58,7 +58,7 @@ Crosswork Planning's toolset encompasses various optimizers that can be used to 
 
 ![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-removed-mopt-next.png) 
 
-We perform another simulation analysis on the optimized network model and observe that now none of the failure cases will lead to any links being oversubscribed. This means that inspite of removing RSVP auto bandwidth tunnels, no link or mode failures will now lead to any links being oversubscribed and customers should not experience any degradation of service. 
+We perform another simulation analysis on the optimized network model and observe that now none of the failure cases will lead to any links being oversubscribed. This means that inspite of removing RSVP auto bandwidth tunnels, no link or mode failures will now lead to any links being oversubscribed and customers should not experience any degradation of service caused by link oversubscription. 
 
 ![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-removed-mopt.png) 
 
