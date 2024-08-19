@@ -52,6 +52,23 @@ The creation of Network Profiles allows us to specify the authentication and SNM
 
 In addition, Node filter may be used to restrict the scope of collection to certain nodes only. This may be specified using  an include or exclude list based on regular expressions, or individual IP addresses.
 
+## Setting up Agent (Optional)
+
+SR-PCE or Netflow agents need to be setup if we are using either for collection. An agent will need to be setup per SR-PCE instance. After the agent has been setup, we may select the ellipsis icon to verify the connectivity between the agent and the specified SR-PCE. Note that the LSP status will indicate valid data if LSPs has been discovered, or otherwise it may indicate invalid data.
+
+## Setting up Collection
+
+The next step is to setup collection by going to Collector > Collections > Add collection. Select the collection methods for Basic topology, Advanced modeling and Traffic and Demands. 
+
+### Example: SR-PCE based topology and LSP collection ###
+
+SR-PCE based topology and LSP collection is usually used for Segment Routing (SR/MPLS) networks with SR-PCEs deployed. In the example below, we select SR-PCE for basic topology collection and PCEP LSP for discovering LSPs using SR-PCE. In addition, we have enabled Traffic collection for Crosswork Planning to populate the interface and LSP traffic statistics.
+
+For SR-PCE based topology and LSP collection, we need to ensure that the mandatory parameters have been entered under the SR-PCE, PCEP LSP and Traffic collection subsections.
+
+### Example: IGP based topology and SNMP based LSP collection ###
+
+This collection method is usually used for IP transit, or IP/MPLS networks without the SR-PCE deployed.
 
 # Methodology
 
