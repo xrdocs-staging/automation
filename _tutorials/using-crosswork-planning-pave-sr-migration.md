@@ -28,7 +28,7 @@ The methodology described in this tutorial has been applied on real-world networ
 
 Due to customer confidentiality, this document uses modified sample network files in the screenshots. 
 
-# Considerations
+# A Paradigm Shift
 
 As customers transition to segment routing, we advocate a shift from the full-mesh RSVP-TE tunnel mindset. This transition promises significant benefits in terms of operational simplification. By embracing the use of IGP shortest path to handle the bulk of best-effort traffic and with proper capacity planning and optimization, full-mesh RSVP-TE tunnels should not be necessary for most customer scenarios. This is particularly true for customer networks designed with high levels of redundancy and proper capacity planning.
 
