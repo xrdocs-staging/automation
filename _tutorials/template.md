@@ -1,7 +1,5 @@
 ---
-published: true
-date: '2024-08-19 00:00 +0800'
-title: My title
+published: false
 tags:
   - cisco
 author: Somebody
