@@ -54,11 +54,11 @@ Another conclusion which can be drawn from the simulation analysis exercise migh
 
 ![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-removed.png) 
 
-Crosswork Planning's toolset encompasses various optimizers that can be used to improve the performance of networks under stressful conditions. We leverage IGP Metric Optimization to provide optimal link metrics in order to minimize the maximum interface utilization for failure scenarios.
+Crosswork Planning's toolset encompasses various optimizers that can be used to improve the performance of networks under stressful conditions. We leverage IGP Metric Optimization to provide optimal link metrics in order to minimize the maximum interface utilization under failure scenarios.
 
 ![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-removed-mopt-next.png) 
 
-We perform simulation analysis on the optimized network model and observe that now none of the failure cases will lead to any links being oversubscribed.
+We perform another simulation analysis on the optimized network model and observe that now none of the failure cases will lead to any links being oversubscribed. This means that inspite of removing RSVP auto bandwidth tunnels, no link or mode failures will now lead to any links being oversubscribed and customers should not experience any degradation of service. 
 
 ![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-removed-mopt.png) 
 
