@@ -18,7 +18,9 @@ excerpt: Crosswork Planning Segment Routing migration
 
 # Overview
 
-Many customers have deployed Segment Routing to date. The benefits of Segment Routing cannot be overstated. It offers simplification of the network with no maintenance of network state, with most of the best-effort traffic being carried by IGP shortest path, leveraging on equal cost multi-path for load balancing. It minimizes the number of protocols required for operations. In other words, it brings enhanced flexibility and resiliency and, at the same time, provides operational simplification.
+Many customers have deployed Segment Routing to date. The benefits of Segment Routing cannot be overstated. Segment routing eliminates the need to create forwarding state instructions in the network, minimizes the number of protocols required for operations, drastically simplifying the network. In other words, it brings enhanced flexibility and resiliency and operational simplification. Most of the traffic is being carried by IGP shortest path, leveraging on equal cost multi-path for load balancing. 
+
+The use of controllers such as Crosswork Network Controller provides a layer of abstraction by exposing easy to consume APIs at the transport and services level, effectively making the network programmable. This enables the rollout of advanced traffic engineering use cases with fine grained control while providing operational simplicity.
 
 Service Providers and large enterprises considering migrating to segment routing as an end state have traditionally been concerned about maintaining the same quality of experience for their customers, especially those who have deployed full-meshed RSVP-TE auto bandwidth tunnels. Some of these customers are concerned that without the deployment of auto bandwidth tunnels, the network would not be able to provide the same resiliency and responsiveness in dealing with changing network conditions. 
 
@@ -42,7 +44,7 @@ LCM is designed to be used on best-effort traffic, leaving traffic which are alr
 
 In the modeling exercise, we aim to build an accurate network model with the current network with RSVP-TE auto bandwidth tunnels deployed. Crosswork Planning can assist in the network collection and model-building process. This would provide us with an accurate network model (plan file) complete with topology, LSPs, and traffic that is suitable for simulation studies.
 
-Next, we leverage Crosswork Planning Design to perform various simulations to characterize this network and its failure modes. This may include using simulation analysis to fail combinations of nodes and links to provide the worst-case traffic utilization for each link. The same analysis will also allow us to gain insights into which link or node failures will lead to these worst-case traffic utilization.
+Next, we leverage Crosswork Planning Design to perform various simulations to characterize this network and its failure modes. This may include using simulation analysis to simulate permutation of failures on selected objects such as nodes and links to provide the worst-case traffic utilization per link. The same analysis will also allow us to gain insights into which failure scenarios will lead to these worst-case traffic utilization. 
 
 In the example below, we load the plan file containing a model of the topology, LSPs, and traffic and perform a simulation analysis to obtain the worst-case interface utilization. The report shows that 5.88% of the failure cases will cause the interfaces to be oversubscribed.
 
