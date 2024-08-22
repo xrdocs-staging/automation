@@ -18,7 +18,7 @@ excerpt: Crosswork Planning Segment Routing migration
 
 # Overview
 
-Many customers have deployed [Segment Routing](https://www.cisco.com/c/en/us/solutions/segment-routing.html) to date. The benefits of Segment Routing cannot be overstated. Segment routing eliminates the need to create forwarding state in the network, minimizes the number of protocols required for operations, thereby drastically simplifying the network. In other words, it brings enhanced flexibility and resiliency and operational simplification. The use of controllers such as Crosswork Network Controller provides another layer of abstraction by exposing easy to consume [network APIs](https://developer.cisco.com/crosswork/) at the transport and services level, enabling the rollout of advanced traffic engineering use cases with fine grained control.
+Many customers have deployed [Segment Routing](https://www.cisco.com/c/en/us/solutions/segment-routing.html) to date. The benefits of Segment Routing cannot be overstated. Segment routing eliminates the need to create forwarding state in the network, minimizes the number of protocols required for operations, thereby drastically simplifying the network. In other words, it brings enhanced flexibility and resiliency and operational simplification. The use of controllers such as ]Crosswork Network Controller](https://www.cisco.com/site/us/en/products/networking/software/crosswork-network-controller/index.html) provides another layer of abstraction by exposing easy to consume [network APIs](https://developer.cisco.com/crosswork/) at the transport and services level, enabling the rollout of advanced traffic engineering use cases with fine grained control.
 
 Service Providers and large enterprises considering the migration to Segment Routing as an end state have traditionally been concerned about maintaining the same quality of experience for their customers, especially those who have deployed full-meshed RSVP-TE auto bandwidth tunnels. Their main concerns are that without the deployment of auto bandwidth tunnels, the network would not be able to provide the same resiliency and responsiveness in dealing with changing network conditions. 
 
@@ -30,7 +30,7 @@ The methodology described in this tutorial has been applied on real-world networ
 
 As customers transition to Segment Routing, we advocate a shift from the full-mesh RSVP-TE tunnel mindset. This transition promises significant benefits in terms of operational simplification. By embracing the use of IGP shortest path to handle the bulk of best-effort traffic and with proper capacity planning and optimization, full-mesh RSVP-TE tunnels should not be necessary for most customer scenarios. This is particularly true for customer networks designed with high levels of redundancy and proper capacity planning.
 
-For traffic that requires special treatment, such as low-latency or avoidance of specific links, countries, or continents, we have the flexibility of using Segment Routing policies or FlexAlgo. These tools are designed for use cases that go beyond bandwidth considerations, providing a robust solution for handling exceptions.
+For traffic that requires special treatment, such as low-latency or avoidance of specific links, countries, or continents, we have the flexibility of using Segment Routing policies or FlexAlgo.  These Segment Routing policies uses efficient SR-native algorithms that leverage the ECMP-awareness of SR and minimize the size of the resulting SID-list. They are designed for use cases that go beyond bandwidth considerations, providing a robust solution for handling exceptions.
 
 We are mindful that there could be scenarios where capacity planning and optimization could not have anticipated (e.g., multiple links going down simultaneously, flash crowd, or unexpected failures occurring concurrently when nodes/links are taken out for maintenance). This is where tactical traffic engineering capabilities such as that provided by [Local Congestion Mitigation (LCM)](https://www.cisco.com/c/en/us/products/collateral/cloud-systems-management/crosswork-network-automation/local-congestion-mitigation-wp.html) will help. 
 
@@ -62,11 +62,11 @@ We perform another simulation analysis on the optimized network model and observ
 
 Very broadly speaking, some networks are designed with good redundancy (i.e. meshy topology) with multiple parallel paths allowing for equal cost multipath, and has sufficient capacity to deal with failure scenarios. Other networks may have very limited capacity and links and are not able to upgrade capacity in accordance to requirements, and have multiple links over capacity. In the latter case RSVP-TE may be serving more as a band-aid to resolve issues which could otherwise be handled with capacity planning and network design best practices. 
 
-In the Segment Routing space, toolsets such as Local Congestion Mitigation can help operators deal with these exceptions on a as needed basis. 
+In the Segment Routing space, toolsets such as Local Congestion Mitigation can help operators deal with these exceptions on a as needed basis, providing lifecycle management of tactical traffic engineering tunnels for the duration of the congestion event.
 
 # Conclusion
 
-When planning for migration from full-mesh RSVP-TE to Segment Routing, a worth-while exercise would be to build an accurate model of the network, complete with topology, LSPs and traffic. This  allows us to simulate how traffic would flow, and what possible issues we may face in the event of failures, or if the existing demands continue to grow. 
+When planning for migration from full-mesh RSVP-TE to Segment Routing, a worth-while exercise would be to build an accurate model of the network, complete with topology, LSPs and traffic. This allows us to simulate how traffic would flow, and what possible issues we may face in the event of failures, or if the existing demands continue to grow. 
 
 Optimizations may be performed on this model to minimize the maximum interface utilization under failures scenarios. Simulations can be used to compare the worst case interface utilization for both RSVP-TE auto bandwidth and Segment Routing scenarios. Networks with sufficient capacity and resiliency should not see the removal of full meshed RSVP-TE auto bandwidth tunnels being worst off. 
 
