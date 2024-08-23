@@ -68,6 +68,8 @@ In addition, Node filter may be used to restrict the scope of collection to cert
 
 SR-PCE or Netflow agents need to be setup if we are using either for collection. An agent will need to be setup per SR-PCE instance. After the agent has been setup, we may select the ellipsis icon to verify the connectivity between the agent and the specified SR-PCE. Note that the LSP status will indicate valid data if LSPs has been discovered, or otherwise it may indicate invalid data.
 
+![Setting up Agent]({{site.baseurl}}/images/cp-getting-started-collection-agent.png) 
+
 ## Setting up Collection
 
 The next step is to setup collection by going to Collector > Collections > Add collection. Select the collection methods for Basic topology, Advanced modeling and Traffic and Demands. 
