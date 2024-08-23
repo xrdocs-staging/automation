@@ -113,17 +113,17 @@ Once we have determined that the collection is satisfactory, we can enter a recu
 
 # Viewing Collected Network Models
 
-The network models from the completed collection may be access under Network Models > Local archive > collection name. In order for us to view the collected network models, we will need to select the ellipsis icon under the Actions column and then select Export to user space. The network model will be accessible under My user spoace > Network Models.
+The network models from the completed collection may be access under Network Models > Local archive > collection name. In order for us to view the collected network models, we will need to select the ellipsis icon under the Actions column and then select Export to user space. The network model will be accessible under My user space > Network Models.
 
 ![Archive]({{site.baseurl}}/images/cp-getting-started-collection-archive1.png) 
 ![Archive]({{site.baseurl}}/images/cp-getting-started-collection-archive2.png) 
 
-If desired, the user may also select to open the network model under Design.
+The user may open the network model under Crosswork Planning Design.
 
 ![Archive]({{site.baseurl}}/images/cp-getting-started-collection-design.png) 
 
 # Conclusion
 
-Crosswork Planning collector provides a friendly graphical interface for setting up network collections. 
+Crosswork Planning collector provides a user friendly graphical interface for setting up network collection. This allows the collection and model-building process to be set up easily without requiring intimate knowledge of the model-building process, which translates to greater efficiency.
 
 For more information, please refer to the Crosswork Planning Installation Guide, Collection Setup and Administration Guide, and Design User Guide.
