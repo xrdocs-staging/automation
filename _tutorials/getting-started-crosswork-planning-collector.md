@@ -18,13 +18,13 @@ excerpt: Getting started with Crosswork Planning Collector
 
 # Overview
 
-Crosswork Planning provides a comprehensive suite of tools to empower operators to proactively manage their network infrastructure. These tools offer capabilities for network discovery, analysis, simulation, and optimization. With Crosswork Planning, operators can unlock a host of benefits, including enhanced visibility and insights, improved performance, reliability, and resiliency, and efficient capacity management.
+Crosswork Planning provides a comprehensive suite of tools to empower operators to manage their network infrastructure proactively. These tools offer network discovery, analysis, simulation, and optimization capabilities. With Crosswork Planning, operators can unlock a host of benefits, including enhanced visibility and insights, improved performance, reliability, and resiliency, and efficient capacity management.
 
 The Design application may be used to visualize topology, run simulations as well as perform optimizations and uses network models which has been created prior, or built using the Collector application.
 
-The Collector application allow us to perform network discovery, collection and model buildling using a variety of supported methods. The collector application takes as its input configuration pertaining to basic and advanced model building and for traffic and demands. Based on these configuration, the collector application reaches out to the network elements to perform collection of the desired attributes to populate the network model. It will produce an output network model (ie. plan file) for the collection, containing objects such as nodes, interfaces, demands, etc. The collection process is designed to be extensible, allowing for the use of scripts to augment basic collection, or for custom collection.
+The Collector application allows us to perform network discovery, collection, and model building using various supported methods. The collector application takes as its input configuration for basic and advanced model building and traffic and demands. Based on this configuration, the collector application reaches out to the network elements to perform a collection of the desired attributes to populate the network model. It will produce an output network model (ie. plan file) for the collection, containing objects such as nodes, interfaces, demands, etc. The collection process is designed to be extensible, allowing for the use of scripts to augment basic collection, or for custom collection.
 
-This tutorial provides a brief overview of setting up Crosswork Planning collector.
+This tutorial provides a brief overview of setting up Crosswork Planning Collector.
 
 Note: Please ensure that Smart Licensing has been setup prior to running collection.
 
@@ -33,24 +33,24 @@ Note: Please ensure that Smart Licensing has been setup prior to running collect
 After logging in to Crosswork Planning, we select the Collector option.
 
 The Collector may be configured by either of the following methods
-* Wizard based guided setup using Getting started selection
+* Wizard-based guided setup using Getting Started selection
 * Manual setup by setting up Credentials, Network Profiles, Agents and Collections
 * Importing configuration file from WAN Automation Engine (using WAE configuration migration tool)
 
-By default, Crosswork will provide a wizard based setup if no existing configuration exists.
+By default, Crosswork will provide a wizard-based setup if no existing configuration exists.
 
 ![Getting started with collection]({{site.baseurl}}/images/cp-getting-started-collection-wizard.png) 
 
 
 ## Setting up Credentials
 
-Credential profiles must be setup for Crosswork Planning to connect to network devices for the purpose of collection. There are two profiles,
+Credential profiles must be set up for Crosswork Planning to connect to network devices for collection. There are two profiles,
 
-* Authentication Profile - This contains the user credentials (username and password) which the Collector will use when connecting to the network devices. Authentication Profiles are used for collection methods which require device login, e.g. IGP based topology discovery where Crosswork Planning will login to the device to collect the IGP database
+* Authentication Profile - Contains the user credentials (username and password) which the Collector will use when connecting to the network devices. Authentication Profiles are used for collection methods which require device login, e.g. IGP based topology discovery where Crosswork Planning will login to the device to collect the IGP database
 
 ![Authentication Profile]({{site.baseurl}}/images/cp-getting-started-collection-auth.png) 
 
-* SNMP Profile - This contains the SNMP type (v2c, v3) and credentials for connecting to the network devices. SNMP is used to enrich the topology information collected via IGP or SR-PCE (e.g. interface name and interface description). In addition, SNMP is used used by some collection methods such as SNMP based LSP collection and interface traffic collection.
+* SNMP Profile - Contains the SNMP type (v2c, v3) and credentials for connecting to the network devices. SNMP is used to enrich the topology information collected via IGP or SR-PCE (e.g. interface name and interface description). In addition, SNMP is used used by some collection methods such as SNMP based LSP collection and interface traffic collection.
 
 ![Setting up SNMP Profile]({{site.baseurl}}/images/cp-getting-started-collection-snmp.png) 
 
