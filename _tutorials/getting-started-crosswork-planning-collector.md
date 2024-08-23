@@ -56,33 +56,34 @@ Credential profiles must be set up for Crosswork Planning to connect to network 
 
 ## Setting up Network Profile
 
-The creation of Network Profiles allows us to specify the authentication and SNMP profile used for accessing network devices. Optionally, a Node list may be created to specify the Management IP, SNMP profile and Authentication profile associated with a particular Node IP address. Specifying the Management IP is especially important if the Node IP which is typically the Router ID or Loopback0 address is not directly accessible from Crosswork Planning.
+The creation of network profiles allows us to specify the authentication and SNMP profile used to access network devices. A Node list may be created to identify the Management IP, SNMP profile, and Authentication profile associated with a particular Node IP address. Specifying the Management IP is especially important if the Node IP, which is typically the Router ID or Loopback0 address, is not directly accessible from Crosswork Planning.
+
 
 ![Setting up Network Profile]({{site.baseurl}}/images/cp-getting-started-collection-nwprofile.png) 
 
-In addition, Node filter may be used to restrict the scope of collection to certain nodes only. This may be specified using  an include or exclude list based on regular expressions, or individual IP addresses.
+In addition, Node filter may be used to restrict the collection scope to certain nodes only. This may be specified using an include or exclude list based on regular expressions or individual IP addresses.
 
 ![Setting up Node Profile]({{site.baseurl}}/images/cp-getting-started-collection-nwprofile-nodefilter.png) 
 
 ## Setting up Agent (Optional)
 
-SR-PCE or Netflow agents need to be setup if we are using either for collection. An agent will need to be setup per SR-PCE instance. After the agent has been setup, we may select the ellipsis icon to verify the connectivity between the agent and the specified SR-PCE. Note that the LSP status will indicate valid data if LSPs has been discovered, or otherwise it may indicate invalid data.
+SR-PCE or Netflow agents must be set up if we are using either for collection. An agent will need to be set up per SR-PCE instance. After the agent has been set up, we may select the ellipsis icon to verify the connectivity between the agent and the specified SR-PCE. Note that the LSP status will indicate valid data if LSPs have been discovered; otherwise, it may indicate invalid data.
 
 ![Setting up Agent]({{site.baseurl}}/images/cp-getting-started-collection-agent.png) 
 
 ## Setting up Collection
 
-The next step is to setup collection by going to Collector > Collections > Add collection. Select the collection methods for Basic topology, Advanced modeling and Traffic and Demands. 
+The next step is to set up collection by going to Collector > Collections > Add collection. Select the collection methods for Basic topology, Advanced modeling and Traffic and Demands. 
 
 ### Example: SR-PCE based topology and LSP collection ###
 
-SR-PCE based topology and LSP collection is usually used for Segment Routing (SR/MPLS) networks with SR-PCEs deployed. In the example below, we select SR-PCE for basic topology collection and PCEP LSP for discovering LSPs using SR-PCE. In addition, we have enabled Traffic collection for Crosswork Planning to populate the interface and LSP traffic statistics.
+SR-PCE based topology and LSP collection are usually used for Segment Routing (SR/MPLS) networks with SR-PCEs deployed. In the example below, we select SR-PCE for basic topology collection and PCEP LSP for discovering LSPs using SR-PCE. In addition, we have enabled Traffic collection for Crosswork Planning to populate the interface and LSP traffic statistics.
 
 ![Setting up PCE collection]({{site.baseurl}}/images/cp-getting-started-collection-xtc1.png) 
 
 ![Setting up PCE collection]({{site.baseurl}}/images/cp-getting-started-collection-xtc2.png) 
 
-For SR-PCE based topology and LSP collection, we need to ensure that the mandatory parameters have been entered under the SR-PCE, PCEP LSP and Traffic collection subsections.
+For SR-PCE based topology and LSP collection, we need to ensure that the mandatory parameters have been entered under the SR-PCE, PCEP LSP, and Traffic collection subsections.
 
 ![Setting up PCE collection]({{site.baseurl}}/images/cp-getting-started-collection-xtc3.png) 
 
@@ -100,13 +101,12 @@ Similar to the above for SR-PCE based collection, we need to ensure that the man
 
 ### Scheduling Collection
 
-A good way to determine if the collection setup has been configured correctly is to initiate a one-shot collection. This may be performed by selecting the ellipsis
-icon under the Actions column, and then selecting Run Now. If the collection is successful, the Status column will indicate a green checkmark with Finished.
-
+An excellent way to determine if the collection setup has been configured correctly is to initiate a one-shot collection. This may be performed by selecting the ellipsis icon under the Actions column and then selecting Run Now. If the collection is successful, the Status column will indicate a green checkmark with Finished.
+ 
 ![Scheduling collection]({{site.baseurl}}/images/cp-getting-started-collection-schedule1.png) 
 ![Scheduling collection]({{site.baseurl}}/images/cp-getting-started-collection-schedule2.png) 
 
-Once we have determined that the collection is satisfactory, we can then enter a recurring schedule for collection to be performed automatically.
+Once we have determined that the collection is satisfactory, we can enter a recurring schedule for collection to be performed automatically.
 
 ![Scheduling collection]({{site.baseurl}}/images/cp-getting-started-collection-schedule3.png) 
 
