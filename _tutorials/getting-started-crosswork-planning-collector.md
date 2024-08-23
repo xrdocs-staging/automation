@@ -47,7 +47,12 @@ By default, Crosswork will provide a wizard based setup if no existing configura
 Credential profiles are required to be setup for Crosswork Planning to connect to network devices for the purpose of collection. There are two profiles which must be setup.
 
 * Authentication Profile - This will need to contain the user credentials (username and password) which the Collector will use when connecting to the network devices. Authentication Profiles are used for collection methods which require device login, e.g. IGP based topology discovery where Crosswork Planning will login to the device to collect the IGP database
+
+![Authentication Profile]({{site.baseurl}}/images/cp-getting-started-collection-auth.png) 
+
 * SNMP Profile - This needs to contain the SNMP type (v2c, v3) and credentials for connecting to the network devices. SNMP is used to enrich the topology information collected via IGP or SR-PCE (e.g. interface name and interface description). In addition, SNMP is used used by some collection methods such as SNMP based LSP collection and interface traffic collection.
+
+![Setting up SNMP Profile]({{site.baseurl}}/images/cp-getting-started-collection-snmp.png) 
 
 ## Setting up Network Profile
 
