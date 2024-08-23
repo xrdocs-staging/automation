@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 date: '2024-08-15 00:00 +0800'
 title: Getting started with Crosswork Planning Collector
 tags:
@@ -113,17 +113,17 @@ Once we have determined that the collection is satisfactory, we can then enter a
 
 # Viewing Collected Network Models
 
-The network models from the completed collection may be access under Network Models > Local archive > collection name. In order for us to view the collected network models, we will need to select the ellipsis icon under the Actions column and then select Export to user space. The network model will appewar under 
-
+The network models from the completed collection may be access under Network Models > Local archive > collection name. In order for us to view the collected network models, we will need to select the ellipsis icon under the Actions column and then select Export to user space. The network model will be accessible under My user spoace > Network Models.
 
 ![Archive]({{site.baseurl}}/images/cp-getting-started-collection-archive1.png) 
 ![Archive]({{site.baseurl}}/images/cp-getting-started-collection-archive2.png) 
-![Archive]({{site.baseurl}}/images/cp-getting-started-collection-design.png) 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+If desired, the user may also select to open the network model under Design.
+
+![Archive]({{site.baseurl}}/images/cp-getting-started-collection-design.png) 
 
 # Conclusion
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Crosswork Planning collector provides a friendly graphical interface for setting up network collections. 
 
 For more information, please refer to the Crosswork Planning Installation Guide, Collection Setup and Administration Guide, and Design User Guide.
