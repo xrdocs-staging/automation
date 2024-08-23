@@ -58,7 +58,11 @@ Credential profiles are required to be setup for Crosswork Planning to connect t
 
 The creation of Network Profiles allows us to specify the authentication and SNMP profile used for accessing network devices. Optionally, a Node list may be created to specify the Management IP, SNMP profile and Authentication profile associated with a particular Node IP address. Specifying the Management IP is especially important if the Node IP which is typically the Router ID or Loopback0 address is not directly accessible from Crosswork Planning.
 
+![Setting up Network Profile]({{site.baseurl}}/images/cp-getting-started-collection-nwprofile.png) 
+
 In addition, Node filter may be used to restrict the scope of collection to certain nodes only. This may be specified using  an include or exclude list based on regular expressions, or individual IP addresses.
+
+![Setting up Node Profile]({{site.baseurl}}/images/cp-getting-started-collection-nwprofile-nodefilter.png) 
 
 ## Setting up Agent (Optional)
 
