@@ -37,7 +37,7 @@ The Collector may be configured by either of the following methods
 * Manual setup by setting up Credentials, Network Profiles, Agents and Collections
 * Importing configuration file from WAN Automation Engine (using WAE configuration migration tool)
 
-By default, Crosswork will provide a wizard based setup if Collector > Collections is selected and no existing configuration exists.
+By default, Crosswork will provide a wizard based setup if no existing configuration exists.
 
 ![Getting started with collection]({{site.baseurl}}/images/cp-getting-started-collection-wizard.png) 
 
