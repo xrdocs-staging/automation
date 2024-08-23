@@ -78,7 +78,12 @@ The next step is to setup collection by going to Collector > Collections > Add c
 
 SR-PCE based topology and LSP collection is usually used for Segment Routing (SR/MPLS) networks with SR-PCEs deployed. In the example below, we select SR-PCE for basic topology collection and PCEP LSP for discovering LSPs using SR-PCE. In addition, we have enabled Traffic collection for Crosswork Planning to populate the interface and LSP traffic statistics.
 
+![Setting up Agent]({{site.baseurl}}/images/cp-getting-started-collection-xtc1.png) 
+
+![Setting up Agent]({{site.baseurl}}/images/cp-getting-started-collection-xtc2.png) 
 For SR-PCE based topology and LSP collection, we need to ensure that the mandatory parameters have been entered under the SR-PCE, PCEP LSP and Traffic collection subsections.
+
+![Setting up Agent]({{site.baseurl}}/images/cp-getting-started-collection-xtc3.png) 
 
 ### Example: IGP based topology and SNMP based LSP collection ###
 
