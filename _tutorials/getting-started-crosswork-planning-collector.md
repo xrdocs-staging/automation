@@ -106,13 +106,19 @@ icon under the Actions column, and then selecting Run Now. If the collection is 
 ![Scheduling collection]({{site.baseurl}}/images/cp-getting-started-collection-schedule1.png) 
 ![Scheduling collection]({{site.baseurl}}/images/cp-getting-started-collection-schedule2.png) 
 
+Once we have determined that the collection is satisfactory, we can then enter a recurring schedule for collection to be performed automatically.
+
+![Scheduling collection]({{site.baseurl}}/images/cp-getting-started-collection-schedule3.png) 
 
 
+# Viewing Collected Network Models
+
+The network models from the completed collection may be access under Network Models > Local archive > collection name. In order for us to view the collected network models, we will need to select the ellipsis icon under the Actions column and then select Export to user space. The network model will appewar under 
 
 
-
-
-![RSVP with Sim Analysis]({{site.baseurl}}/images/using-cp-pave-sr-sim-analysis-rsvp-autobw.png) 
+![Archive]({{site.baseurl}}/images/cp-getting-started-collection-archive1.png) 
+![Archive]({{site.baseurl}}/images/cp-getting-started-collection-archive2.png) 
+![Archive]({{site.baseurl}}/images/cp-getting-started-collection-design.png) 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
