@@ -81,6 +81,7 @@ SR-PCE based topology and LSP collection is usually used for Segment Routing (SR
 ![Setting up Agent]({{site.baseurl}}/images/cp-getting-started-collection-xtc1.png) 
 
 ![Setting up Agent]({{site.baseurl}}/images/cp-getting-started-collection-xtc2.png) 
+
 For SR-PCE based topology and LSP collection, we need to ensure that the mandatory parameters have been entered under the SR-PCE, PCEP LSP and Traffic collection subsections.
 
 ![Setting up Agent]({{site.baseurl}}/images/cp-getting-started-collection-xtc3.png) 
@@ -88,6 +89,14 @@ For SR-PCE based topology and LSP collection, we need to ensure that the mandato
 ### Example: IGP based topology and SNMP based LSP collection ###
 
 This collection method is usually used for IP transit, or IP/MPLS networks without the SR-PCE deployed.
+
+![Setting up Agent]({{site.baseurl}}/images/cp-getting-started-collection-igp1.png) 
+![Setting up Agent]({{site.baseurl}}/images/cp-getting-started-collection-igp2.png) 
+
+
+Similar to the above for SR-PCE based collection, we need to ensure that the mandatory parameters have been entered under the IGP database, LSP and Traffic collection subsections.
+
+![Setting up Agent]({{site.baseurl}}/images/cp-getting-started-collection-igp3.png) 
 
 # Methodology
 
