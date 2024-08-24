@@ -45,13 +45,12 @@ Open the network model that was import earlier. Select the ellipsis [...] icon u
 
 ![Open Plan]({{site.baseurl}}/images/cp-design-getting-started-open-plan-open.png)
 
-
-![Open Plan]({{site.baseurl}}/images/cp-design-getting-started-open-plan-opened.png)
-
-
 After the file opens take note of the following:
 
 - You are looking at a multivendor network. Crosswork Planning supports collection from Cisco, Juniper, Alcatel Lucent and Huawei.
+
+![Open Plan]({{site.baseurl}}/images/cp-design-getting-started-open-plan-opened.png)
+
 - The network plot should show nodes connected by circuits. A circuit is two directly connected interfaces. 
 - You can click and drag nodes to change their position. You can also right click on an object in the plot or the property tables below to see available actions or filter to related objects. 
 
