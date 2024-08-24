@@ -29,10 +29,14 @@ Your task is to use an unprocessed network model in the WAE Design application t
 [INFO] Some tasks in this exercise are usually performed during the collection and model building process of the WAE server. The WAE Design application is used in this exercise to demonstrate step-by-step details of that process. 
 
 #### Step 0 Launch WAE Design
-- From the Desktop, Open the WAE Design directory
+- From the Desktop, Launch Open the WAE Design directory
 - The open the `MATE` Application
 
 ![start-design.gif](start-design.gif) 
+
+#### Step 1 Import Network Model in Design
+
+![Getting started with collection]({{site.baseurl}}/images/cp-getting-started-collection-wizard.png) 
 
 #### Step 1 Open A Network Model in Design
 
@@ -43,6 +47,9 @@ Your task is to use an unprocessed network model in the WAE Design application t
     role="button">Download Network Model</a></p>
   </li>
 </ul>
+
+
+
 
 
 - From WAE Design, select **File->Open**. Navigate to the directory of the downloaded network model and select it. The file should be named **“unprocessed-lab.pln”**.
