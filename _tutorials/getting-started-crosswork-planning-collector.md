@@ -67,9 +67,13 @@ In addition, Node filter may be used to restrict the collection scope to certain
 
 ## Setting up Agent (Optional)
 
-SR-PCE or Netflow agents must be set up if we are using either for collection. An agent will need to be set up per SR-PCE instance. After the agent has been set up, we may select the ellipsis icon to verify the connectivity between the agent and the specified SR-PCE. Note that the LSP status will indicate valid data if LSPs have been discovered; otherwise, it may indicate invalid data.
+SR-PCE or Netflow agents must be set up if we are using either for collection. An agent will need to be set up per SR-PCE instance. 
 
 ![Setting up Agent]({{site.baseurl}}/images/cp-getting-started-collection-agent.png) 
+
+After the agent has been set up, we may select the ellipsis icon to start the agent and verify the connectivity to the SR-PCE. Note that the LSP status will indicate Valid data if LSPs have been discovered; otherwise, it may indicate invalid data.
+
+![Setting up Agent]({{site.baseurl}}/images/cp-getting-started-collection-agent-status.png)
 
 ## Setting up Collection
 
