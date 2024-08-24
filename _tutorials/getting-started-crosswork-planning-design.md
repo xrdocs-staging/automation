@@ -17,9 +17,16 @@ excerpt: Getting started with Crosswork Planning Design
 
 #Overview
 
-This quick start guide provides a sampler of some of the features provided by WAE Design. The exercises in this lab may be run using the following dCloud Lab:
+Crosswork Planning provides a comprehensive suite of tools to empower operators to manage their network infrastructure proactively. These tools offer network discovery, analysis, simulation, and optimization capabilities. With Crosswork Planning, operators can unlock a host of benefits, including enhanced visibility and insights, improved performance, reliability, and resiliency, and efficient capacity management.
 
-- [Cisco WAN Automation Engine 7.6 with SR and SR-PCE v1](https://dcloud2-sjc.cisco.com/content/demo/302570)
+The Design application may be used to visualize topology, run simulations as well as perform optimizations and uses network models which has been created prior, or built using the Collector application.
+
+This tutorial provides a sampler of some of the features available in Crosswork Planning Design. The exercises in this lab may be run using the following dCloud Lab:
+**Crosswork Planning 7.0 (1n) with KVM Topology (3n)**
+
+Note: Please ensure that Smart Licensing has been setup prior to running collection.
+
+#### Getting started
 
 Your task is to use an unprocessed network model in the WAE Design application to do the following:
 
