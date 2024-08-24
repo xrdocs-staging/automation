@@ -48,9 +48,9 @@ Your task is to use an unprocessed network model in the Crosswork Planning Desig
 
 From Crosswork Planning Design, select **File->Open**. Navigate to the directory of the downloaded network model and select it. The file should be named **“unprocessed-lab.pln”**.
 
-![Open Plan]({{site.baseurl}}/images/cp-design-getting-open-plan.png)
+![Open Plan]({{site.baseurl}}/images/cp-design-getting-started-open-plan.png)
 
-![Open Plan]({{site.baseurl}}/images/cp-design-getting-open-opened.png)
+![Open Plan]({{site.baseurl}}/images/cp-design-getting-started-open-opened.png)
 
 After the file opens take note of the following:
 
