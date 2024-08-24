@@ -24,7 +24,7 @@ This tutorial provides a sampler of some of the features available in Crosswork 
 
 Note: Please ensure that Smart Licensing has been setup prior to trying the exercises in this tutorial.
 
-#### Getting started
+#Getting acquainted with Crosswork Planning Design
 
 Your task is to use an unprocessed network model (i.e. plan-file) in the Crosswork Planning Design application to do the following:
 
@@ -61,7 +61,6 @@ After the file opens take note of the following:
 - The colors on the interfaces and the amount they are filled represent the measured egress traffic collected. 
 - You may select the Topology Legend icon to display the legend, and colors used to indicate different link traffic utilization levels.
   Hint: You may have to scroll to the bottom of the page to display the colors used for different link traffic utilization levels.
-- 
 - The measured data in the model represents the period from which the data was collected from the network. This is the model used in the Crosswork Planning Design application. 
 
 
