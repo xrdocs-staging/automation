@@ -37,7 +37,7 @@ Note: Some tasks in this exercise are usually performed during the collection an
 
 The first step is to import the network model from your desktop to Crosswork Planning. This is performed by going to Network Models > Import Plan File. Use the Browse button to select the plan file from your desktop. Once the network model has been imported successfully, it may be found under Network Models > My user space > Network Models.
 
-![Import Plan]({{site.baseurl}}/images/cp-design-getting-started-import-plan.png)
+![Import Plan]({{site.baseurl}}/images/cp-design-getting-started-import-plan-select.png)
 
 #### Step 2 - Open Network Model in Design
 
