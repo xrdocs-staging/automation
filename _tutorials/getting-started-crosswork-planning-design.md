@@ -4,7 +4,6 @@ date: '2024-08-24 00:00 +0800'
 title: Getting Started with Crosswork Planning Design
 tags:
   - cisco
-  - WAE
   - Crosswork Planning
   - Crosswork Planning Design
   - Design
@@ -21,22 +20,21 @@ Crosswork Planning provides a comprehensive suite of tools to empower operators 
 
 The Design application may be used to visualize topology, run simulations as well as perform optimizations and uses network models which has been created prior, or built using the Collector application.
 
-This tutorial provides a sampler of some of the features available in Crosswork Planning Design. The exercises in this lab may be run using the following dCloud Lab:
-**Crosswork Planning 7.0 (1n) with KVM Topology (3n)**
+This tutorial provides a sampler of some of the features available in Crosswork Planning Design. The exercises in this lab may be run using the following dCloud Lab: **Crosswork Planning 7.0 (1n) with KVM Topology (3n)**
 
-Note: Please ensure that Smart Licensing has been setup prior to running collection.
+Note: Please ensure that Smart Licensing has been setup prior to trying the exercises in this tutorial.
 
 #### Getting started
 
-Your task is to use an unprocessed network model in the WAE Design application to do the following:
+Your task is to use an unprocessed network model in the Crosswork Planning Design application to do the following:
 
 - Logically group nodes to make the topology easy to navigate
 - Create a traffic simulation using measured data from the network
  
-[INFO] Some tasks in this exercise are usually performed during the collection and model building process of the WAE server. The WAE Design application is used in this exercise to demonstrate step-by-step details of that process. 
+[INFO] Some tasks in this exercise are usually performed during the collection and model building process of the Crosswork Planning server. The Crosswork Planning Design application is used in this exercise to demonstrate step-by-step details of that process. 
 
-#### Step 0 Launch WAE Design
-- From the Desktop, Launch Open the WAE Design directory
+#### Step 0 Launch Crosswork Planning Design
+- From the Desktop, Launch Open the Crosswork Planning Design directory
 - The open the `MATE` Application
 
 ![start-design.gif](start-design.gif) 
@@ -59,23 +57,23 @@ Your task is to use an unprocessed network model in the WAE Design application t
 
 
 
-- From WAE Design, select **File->Open**. Navigate to the directory of the downloaded network model and select it. The file should be named **“unprocessed-lab.pln”**.
+- From Crosswork Planning Design, select **File->Open**. Navigate to the directory of the downloaded network model and select it. The file should be named **“unprocessed-lab.pln”**.
 
 ![Design Interface](design-interface.png)
 
 After the file opens take note of the following:
 
-- You are looking at a multivendor network. WAE supports collection from Cisco, Juniper, Alcatel Lucent and Huawei.
+- You are looking at a multivendor network. Crosswork Planning supports collection from Cisco, Juniper, Alcatel Lucent and Huawei.
 - The network plot should show nodes connected by circuits. A circuit is two directly connected interfaces. 
 - You can click and drag nodes to change their position. You can also right click on an object in the plot or the property tables below to see available actions or filter to related objects. 
 - In the upper left corner the selection box should say “Measured Traffic”. For now this traffic view should be the only selection that has colors appear on the interfaces.  
 ![Measured Traffic](measuredTraffic.png)
 - The colors on the interfaces and the amount they are filled represent the measured egress traffic collected. The colors can be configured to represent other utilization values by selecting the “Edit Colors” selection box.  
 ![Interface Colors](interfaceColors.png)
-- The measured data in the model represents the period from which the data was collected from the network. This is the model used in the WAE Design application. There is another application called WAE Live that analyzes time series network models to derive trends, health issues and properties over time. WAE Live is not covered in this section.
+- The measured data in the model represents the period from which the data was collected from the network. This is the model used in the Crosswork Planning Design application. There is another application called Crosswork Planning Live that analyzes time series network models to derive trends, health issues and properties over time. Crosswork Planning Live is not covered in this section.
 
 ## Logically Group Nodes
-The WAE network model allows you to group nodes together in a “site”. Additionally you can group a site in another site. The flexibility enables you to make complicated topologies simple and easy to navigate.  
+The Crosswork Planning network model allows you to group nodes together in a “site”. Additionally you can group a site in another site. The flexibility enables you to make complicated topologies simple and easy to navigate.  
 
 You can create a new site by selecting Insert->Site then assigning nodes to the site. However, by examining the node hostnames it becomes apparent the first stanza represents the node function, the second represents the node group and the third is the hostname suffix, which is the same for all nodes.
 
@@ -142,9 +140,9 @@ You may have a situation where you want to see many network views of sites or a 
 
 
 ## Create a Traffic Simulation
-In the upper left corner of WAE Design, the selection box should say “Measured Traffic”. If you toggle to “Simulated Traffic”, the interfaces should appear empty. In this section we will use the measured data to create a traffic simulation.
+In the upper left corner of Crosswork Planning Design, the selection box should say “Measured Traffic”. If you toggle to “Simulated Traffic”, the interfaces should appear empty. In this section we will use the measured data to create a traffic simulation.
 
-WAE simulates traffic routed through the network using Demands. A demand represents an aggregate per service class flow of traffic from source to destination. Each demand has a traffic value in mbps and is routed according the topology and protocols as defined in the Network Model of the network. 
+Crosswork Planning simulates traffic routed through the network using Demands. A demand represents an aggregate per service class flow of traffic from source to destination. Each demand has a traffic value in mbps and is routed according the topology and protocols as defined in the Network Model of the network. 
 
 #### Step 8 Create A Demand Mesh
 To create a mesh of demands, first find the edge of the network. You will notice these routers are identified with hostnames `er.<site name>`.
@@ -157,9 +155,9 @@ To create a mesh of demands, first find the edge of the network. You will notice
 ![insert_dmd_mesh.gif](insert_dmd_mesh.gif)  
 
 #### Step 9 Run Demand Deduction
-Now the demands are in the model, but the demand traffic values are 0 (mbps). WAE has a tool called Demand Deduction that uses measured data from the network to determine what the demand traffic values should be.
+Now the demands are in the model, but the demand traffic values are 0 (mbps). Crosswork Planning has a tool called Demand Deduction that uses measured data from the network to determine what the demand traffic values should be.
 
-[INFO] In this network we have collected SNMP traffic data on the interfaces.  If you select an interface and filter to demands, notice that the sum of the demands going through the interface must equal the measured traffic value. If you were to do this on the entire network, you would begin to see a large system of linear equations. WAE Design has a tool called Demand Deduction that takes this, and other information into account to solve the per demand traffic values. NetFlow data can be used in helping determine the demand values, but NetFlow is not requirement for this process. 
+[INFO] In this network we have collected SNMP traffic data on the interfaces.  If you select an interface and filter to demands, notice that the sum of the demands going through the interface must equal the measured traffic value. If you were to do this on the entire network, you would begin to see a large system of linear equations. Crosswork Planning Design has a tool called Demand Deduction that takes this, and other information into account to solve the per demand traffic values. NetFlow data can be used in helping determine the demand values, but NetFlow is not requirement for this process. 
 
 To run Demand Deduction
   
@@ -201,7 +199,7 @@ You can examine what happens if you change any aspect of the model.
 In the previous steps you have seen some of the simple cases you can examine with the simulation. Now lets look at some use cases.
 
 ### Bandwidth on Demand and Traffic Engineering
-[INFO] Make sure you have reversed any changes made in the previous step. WAE Design does not have an "undo" function so you need to undo any changes manually.  You can always re-download and open up a copy of the model using the button below the heading "What Can You Do With a Network Simulation".
+[INFO] Make sure you have reversed any changes made in the previous step. Crosswork Planning Design does not have an "undo" function so you need to undo any changes manually.  You can always re-download and open up a copy of the model using the button below the heading "What Can You Do With a Network Simulation".
 
 Before adding traffic to your network, you would like to know the impact the traffic would have. If there is congestion are there topology changes or optimizations that can be done to support the traffic?
 #### Step 11 Bandwidth on Demand and Traffic Engineering
@@ -232,12 +230,12 @@ Before adding traffic to your network, you would like to know the impact the tra
 - Delete the added demand and LSP to prepare for the next exercise by selecting them in their respective tables, right click and select Delete.
 
 ### Capacity Planning with Resiliency Analysis
-[INFO] Make sure you have reversed any changes made in the previous step. WAE Design does not have an "undo" function so you need to undo any changes manually.  You can always re-download and open up a copy of the model using the button below the heading "What Can You Do With a Network Simulation".
+[INFO] Make sure you have reversed any changes made in the previous step. Crosswork Planning Design does not have an "undo" function so you need to undo any changes manually.  You can always re-download and open up a copy of the model using the button below the heading "What Can You Do With a Network Simulation".
 
 
-You have simulated the impact to the network of a circuit failure. In Design you can also simulate what happens if a node, srlg, lag, l1 object or a site were to fail. If you were to go through each element one by one, you would get a "worst case" view of where you are most at risk of congestion and you would also get a view of the failures that case the worst case, the "failure impact". WAE Design has the Simulation Analysis tool to automate this process and provide that analysis. 
+You have simulated the impact to the network of a circuit failure. In Design you can also simulate what happens if a node, srlg, lag, l1 object or a site were to fail. If you were to go through each element one by one, you would get a "worst case" view of where you are most at risk of congestion and you would also get a view of the failures that case the worst case, the "failure impact". Crosswork Planning Design has the Simulation Analysis tool to automate this process and provide that analysis. 
 
-WAE Design is also very extensible and provides an API that can be used to enhance the available tools. One example is an add-on called circuit upgrade. It will examine the simulation and determine what circuits should be upgraded and by how much. 
+Crosswork Planning Design is also very extensible and provides an API that can be used to enhance the available tools. One example is an add-on called circuit upgrade. It will examine the simulation and determine what circuits should be upgraded and by how much. 
 
 #### Step 12 Capacity Planning with Resiliency Analysis
 - Run Simulation Analysis
@@ -264,7 +262,7 @@ WAE Design is also very extensible and provides an API that can be used to enhan
   ![circuit_upgrade.gif](circuit_upgrade.gif) 
 
 ### Capacity Planning and Forecasting
-[INFO] Make sure you have reversed any changes made in the previous step. WAE Design does not have an "undo" function so you need to undo any changes manually.  You can always re-download and open up a copy of the model using the button below the heading "What Can You Do With a Network Simulation".
+[INFO] Make sure you have reversed any changes made in the previous step. Crosswork Planning Design does not have an "undo" function so you need to undo any changes manually.  You can always re-download and open up a copy of the model using the button below the heading "What Can You Do With a Network Simulation".
 
 
 You have simulated adding traffic to the network by adding demands. Using Design you can also apply a growth percentage to a demand or set of demands and project that growth into the future. 
@@ -301,7 +299,7 @@ You want to know what your network will look like after every 2 quarter for the 
 - Number of Periods 3
    
           
-[INFO] Growth information derived from the WAE Live application can be imported into design. However, WAE live is not covered here.  
+[INFO] Growth information derived from the Crosswork Planning Live application can be imported into design. However, Crosswork Planning live is not covered here.  
 
 
 
