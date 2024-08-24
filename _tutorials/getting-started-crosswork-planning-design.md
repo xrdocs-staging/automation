@@ -41,25 +41,29 @@ The first step is to import the network model from your desktop to Crosswork Pla
 
 #### Step 2 - Open Network Model in Design
 
-Open the network model that was import earlier. Select the ellipsis icon under the Action column for the unprocessed-lab.pln plan file you wish to open. Select Open.
+Open the network model that was import earlier. Select the ellipsis [...] icon under the Action column for unprocessed-lab.pln. Select Open.
 
 ![Open Plan]({{site.baseurl}}/images/cp-design-getting-started-open-plan-open.png)
 
+
 ![Open Plan]({{site.baseurl}}/images/cp-design-getting-started-open-plan-opened.png)
 
-![Open Plan]({{site.baseurl}}/images/cp-design-getting-started-open-plot-view.png)
 
 After the file opens take note of the following:
 
 - You are looking at a multivendor network. Crosswork Planning supports collection from Cisco, Juniper, Alcatel Lucent and Huawei.
 - The network plot should show nodes connected by circuits. A circuit is two directly connected interfaces. 
 - You can click and drag nodes to change their position. You can also right click on an object in the plot or the property tables below to see available actions or filter to related objects. 
+
+![Open Plan]({{site.baseurl}}/images/cp-design-getting-started-open-plot-view.png)
+
 - You may select the Plot view to reflect Simulated Traffic, or Measured Traffic. Select the Measured Traffic view. For now this traffic view should be the only selection that has colors appear on the interfaces.  
 - The colors on the interfaces and the amount they are filled represent the measured egress traffic collected. 
 - You may select the Topology Legend icon to display the legend, and colors used to indicate different link traffic utilization levels.
   Hint: You may have to scroll to the bottom of the page to display the colors used for different link traffic utilization levels.
 - 
 - The measured data in the model represents the period from which the data was collected from the network. This is the model used in the Crosswork Planning Design application. 
+
 
 ## Logically Group Nodes
 The Crosswork Planning network model allows you to group nodes together in a “site”. Additionally you can group a site in another site. The flexibility enables you to make complicated topologies simple and easy to navigate.  
