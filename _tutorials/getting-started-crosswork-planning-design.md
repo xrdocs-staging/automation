@@ -50,7 +50,7 @@ From Crosswork Planning Design, select **File->Open**. Navigate to the directory
 
 ![Open Plan]({{site.baseurl}}/images/cp-design-getting-started-open-plan.png)
 
-![Open Plan]({{site.baseurl}}/images/cp-design-getting-started-open-opened.png)
+![Open Plan]({{site.baseurl}}/images/cp-design-getting-started-open-plan-opened.png)
 
 After the file opens take note of the following:
 
