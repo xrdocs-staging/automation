@@ -41,23 +41,13 @@ Your task is to use an unprocessed network model in the Crosswork Planning Desig
 
 #### Step 1 Import Network Model in Design
 
-![Getting started with collection]({{site.baseurl}}/images/cp-getting-started-collection-wizard.png) 
+![Import Plan]({{site.baseurl}}/images/cp-design-getting-started-import-plan.png)
 
 #### Step 1 Open A Network Model in Design
 
- <ul class="list-inline">
-  <li>
-    <p><a class="btn btn-primary btn-lg" 
-    href="unprocessed-lab.pln" 
-    role="button">Download Network Model</a></p>
-  </li>
-</ul>
+![Open Plan]({{site.baseurl}}/images/cp-design-getting-open-plan.png)
 
-
-
-
-
-- From Crosswork Planning Design, select **File->Open**. Navigate to the directory of the downloaded network model and select it. The file should be named **“unprocessed-lab.pln”**.
+From Crosswork Planning Design, select **File->Open**. Navigate to the directory of the downloaded network model and select it. The file should be named **“unprocessed-lab.pln”**.
 
 ![Design Interface](design-interface.png)
 
