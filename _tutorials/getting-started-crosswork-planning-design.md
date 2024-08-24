@@ -33,7 +33,7 @@ Your task is to use an unprocessed network model in the Crosswork Planning Desig
  
 [INFO] Some tasks in this exercise are usually performed during the collection and model building process of the Crosswork Planning server. The Crosswork Planning Design application is used in this exercise to demonstrate step-by-step details of that process. 
 
-#### Step 0 Launch Crosswork Planning Design
+#### Step 1 Launch Crosswork Planning Design
 - From the Desktop, Launch Open the Crosswork Planning Design directory
 - The open the `MATE` Application
 
@@ -45,11 +45,12 @@ Your task is to use an unprocessed network model in the Crosswork Planning Desig
 
 #### Step 1 Open A Network Model in Design
 
-![Open Plan]({{site.baseurl}}/images/cp-design-getting-open-plan.png)
 
 From Crosswork Planning Design, select **File->Open**. Navigate to the directory of the downloaded network model and select it. The file should be named **“unprocessed-lab.pln”**.
 
-![Design Interface](design-interface.png)
+![Open Plan]({{site.baseurl}}/images/cp-design-getting-open-plan.png)
+
+![Open Plan]({{site.baseurl}}/images/cp-design-getting-open-opened.png)
 
 After the file opens take note of the following:
 
