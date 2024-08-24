@@ -31,54 +31,38 @@ Your task is to use an unprocessed network model in the Crosswork Planning Desig
 - Logically group nodes to make the topology easy to navigate
 - Create a traffic simulation using measured data from the network
  
-[INFO] Some tasks in this exercise are usually performed during the collection and model building process of the Crosswork Planning server. The Crosswork Planning Design application is used in this exercise to demonstrate step-by-step details of that process. 
+Note: Some tasks in this exercise are usually performed during the collection and model building process of the Crosswork Planning server. The Crosswork Planning Design application is used in this exercise to demonstrate step-by-step details of that process. 
 
-#### Step 1 Launch Crosswork Planning Design
-- From the Desktop, Launch Open the Crosswork Planning Design directory
-- The open the `MATE` Application
-
-![start-design.gif](start-design.gif) 
-
-#### Step 1 Import Network Model in Design
+#### Step 1 - Import Network Model in Design
 
 ![Import Plan]({{site.baseurl}}/images/cp-design-getting-started-import-plan.png)
 
-#### Step 1 Open A Network Model in Design
-
+#### Step 2 - Open Network Model in Design
 
 From Crosswork Planning Design, select **File->Open**. Navigate to the directory of the downloaded network model and select it. The file should be named **“unprocessed-lab.pln”**.
 
 ![Open Plan]({{site.baseurl}}/images/cp-design-getting-started-open-plan-open.png)
 
-
 ![Open Plan]({{site.baseurl}}/images/cp-design-getting-started-open-plan-opened.png)
 
 ![Open Plan]({{site.baseurl}}/images/cp-design-getting-started-open-plot-view.png)
-
 
 After the file opens take note of the following:
 
 - You are looking at a multivendor network. Crosswork Planning supports collection from Cisco, Juniper, Alcatel Lucent and Huawei.
 - The network plot should show nodes connected by circuits. A circuit is two directly connected interfaces. 
 - You can click and drag nodes to change their position. You can also right click on an object in the plot or the property tables below to see available actions or filter to related objects. 
-- In the upper left corner the selection box should say “Measured Traffic”. For now this traffic view should be the only selection that has colors appear on the interfaces.  
-![Measured Traffic](measuredTraffic.png)
-- The colors on the interfaces and the amount they are filled represent the measured egress traffic collected. The colors can be configured to represent other utilization values by selecting the “Edit Colors” selection box.  
-![Interface Colors](interfaceColors.png)
-- The measured data in the model represents the period from which the data was collected from the network. This is the model used in the Crosswork Planning Design application. There is another application called Crosswork Planning Live that analyzes time series network models to derive trends, health issues and properties over time. Crosswork Planning Live is not covered in this section.
+- You may select the Plot view to reflect Simulated Traffic, or Measured Traffic. Select the Measured Traffic view. For now this traffic view should be the only selection that has colors appear on the interfaces.  
+- The colors on the interfaces and the amount they are filled represent the measured egress traffic collected. 
+- You may select the Topology Legend icon to display the legend, and colors used to indicate different link traffic utilization levels.
+  Hint: You may have to scroll to the bottom of the page to display the colors used for different link traffic utilization levels.
+- 
+- The measured data in the model represents the period from which the data was collected from the network. This is the model used in the Crosswork Planning Design application. 
 
 ## Logically Group Nodes
 The Crosswork Planning network model allows you to group nodes together in a “site”. Additionally you can group a site in another site. The flexibility enables you to make complicated topologies simple and easy to navigate.  
 
 You can create a new site by selecting Insert->Site then assigning nodes to the site. However, by examining the node hostnames it becomes apparent the first stanza represents the node function, the second represents the node group and the third is the hostname suffix, which is the same for all nodes.
-
-
-#### Step 2 Remove the Node Suffix
-- De-select any node selections by clicking an empty part of the plot
-- Select **Initializers->Rename Nodes**. 
-- Enter the suffix **“.lab.cisco.com”**
-- Select OK.  
-![rename_nodes.gif](rename_nodes.gif)  
 
 #### Step 3 Assign Nodes to Sites
 - Select **Initializers->Assign Sites to Nodes**. 
