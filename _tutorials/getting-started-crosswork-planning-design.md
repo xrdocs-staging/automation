@@ -26,7 +26,7 @@ Note: Please ensure that Smart Licensing has been setup prior to trying the exer
 
 #### Getting started
 
-Your task is to use an unprocessed network model in the Crosswork Planning Design application to do the following:
+Your task is to use an unprocessed network model (i.e. plan-file) in the Crosswork Planning Design application to do the following:
 
 - Logically group nodes to make the topology easy to navigate
 - Create a traffic simulation using measured data from the network
@@ -35,11 +35,13 @@ Note: Some tasks in this exercise are usually performed during the collection an
 
 #### Step 1 - Import Network Model in Design
 
+The first step is to import the network model from your desktop to Crosswork Planning. This is performed by going to Network Models > Import Plan File. Use the Browse button to select the plan file from your desktop. Once the network model has been imported successfully, it may be found under Network Models > My user space > Network Models.
+
 ![Import Plan]({{site.baseurl}}/images/cp-design-getting-started-import-plan.png)
 
 #### Step 2 - Open Network Model in Design
 
-From Crosswork Planning Design, select **File->Open**. Navigate to the directory of the downloaded network model and select it. The file should be named **“unprocessed-lab.pln”**.
+Open the network model that was import earlier. Select the ellipsis icon under the Action column for the unprocessed-lab.pln plan file you wish to open. Select Open.
 
 ![Open Plan]({{site.baseurl}}/images/cp-design-getting-started-open-plan-open.png)
 
