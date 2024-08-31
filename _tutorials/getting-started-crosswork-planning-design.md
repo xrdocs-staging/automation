@@ -85,9 +85,16 @@ You can create a new site by selecting Insert->Site then assigning nodes to the 
 You should now see 11 sites. You can click and drag them around. Alternatively you can assign sites to geographic locations.
 
 - De-select any site selections by clicking an empty part of the plot
-- Select **Initializers->Assign Locations to Sites**.
-- In the **Location** column, you can start typing a city, or just press enter to use tool to guess the location based on the site name. 
-- Notice that the guess gets the location of Houston and Kansas City wrong. Edit these rows by entering the correct city name and press enter to complete the row.  
+- Select **Actions > Initializers > Assign Locations to Sites**.
+- Select **Best match > Best match by site**, Select **Save**
+
+![Assign Location to Sites]({{site.baseurl}}/images/cp-design-getting-started-assign-loc-sites1.png)
+
+- Notice that the guess gets the location of Houston and Kansas City wrong. Select the **More** selection to view the Sites Table. Edit these rows by selecting the ellipsis [...] icon under the actions column and selecting **Edit**.
+
+![Assign Location to Sites]({{site.baseurl}}/images/cp-design-getting-started-assign-loc-sites2.png)
+![Assign Location to Sites]({{site.baseurl}}/images/cp-design-getting-started-assign-loc-sites3.png)
+
 - When finished press OK.
 
 #### Step 5 Arrange Sites According to Locations
