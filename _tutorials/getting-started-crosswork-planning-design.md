@@ -47,10 +47,11 @@ Go to Network Design, under My user space > Network models, open the network mod
 
 After the file opens take note of the following:
 - You are looking at a multivendor network. Crosswork Planning supports collection from Cisco, Juniper, Alcatel Lucent and Huawei.
-- The network plot should show nodes connected by circuits. A circuit is two directly connected interfaces. 
-- You can click and drag nodes to change their position. You can also right click on an object in the plot or the property tables below to see available actions or filter to related objects. 
+- The network plot should show nodes connected by circuits. A circuit is made up of two directly connected interfaces. 
+- You can select and drag nodes to change their position.
+- You can select the settings icon to show/hide tables, floating filter, Advanced filter, and Cross table filter to see available actions, or to filter to related objects.
 
-![Open Plan]({{site.baseurl}}/images/cp-design-getting-started-open-plan-opened.png)
+![Open Plan]({{site.baseurl}}/images/cp-design-getting-started-open-plan-opened-filter.png)
 
 - You may select the Plot view to reflect Simulated Traffic, or Measured Traffic. Select the Measured Traffic view. For now this traffic view should be the only selection that has colors appear on the interfaces.  
 - The colors on the interfaces and the amount they are filled represent the measured egress traffic collected. 
