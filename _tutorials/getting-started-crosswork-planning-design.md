@@ -67,11 +67,19 @@ The Crosswork Planning network model allows you to group nodes together in a “
 You can create a new site by selecting Insert->Site then assigning nodes to the site. However, by examining the node hostnames it becomes apparent the first stanza represents the node function, the second represents the node group and the third is the hostname suffix, which is the same for all nodes.
 
 #### Step 3 Assign Nodes to Sites
-- Select **Initializers->Assign Sites to Nodes**. 
+- Select **Actions > Initializers > Assign Sites to Nodes**. 
+
+- First select all nodes by selecting the checkbox as shown.
+![Assign Nodes to Sites]({{site.baseurl}}/images/cp-design-getting-started-assign-nodes-sites1.png)
+
 - In the Nodes to Site Mapping Rules the delimiters being used are `.` `-` and `:`. Since a `.`is being used to separate the nodes function and location, in the **Site name:** field use `$2`. 
-- On the bottom left select **Update Preview** and observe what nodes will be assigned to each site.
-- When finished press OK.  
-![assign_nodes_to_sites.gif](assign_nodes_to_sites.gif)  
+![Assign Nodes to Sites]({{site.baseurl}}/images/cp-design-getting-started-assign-nodes-sites2.png)
+
+- You will be presented with a Preview on what nodes will be assigned to each site.
+![Assign Nodes to Sites]({{site.baseurl}}/images/cp-design-getting-started-assign-nodes-sites3.png)
+
+- Observe that the node assignment to sites has been completed.
+![Assign Nodes to Sites]({{site.baseurl}}/images/cp-design-getting-started-assign-nodes-sites4.png)
 
 #### Step 4 Assign Locations to Sites
 You should now see 11 sites. You can click and drag them around. Alternatively you can assign sites to geographic locations.
