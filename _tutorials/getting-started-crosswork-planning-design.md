@@ -93,9 +93,12 @@ You should now see 11 sites. You can click and drag them around. Alternatively y
 - Notice that the guess gets the location of Houston and Kansas City wrong. Select the **More** selection to view the Sites Table. Edit these rows by selecting the ellipsis [...] icon under the actions column and selecting **Edit**.
 
 ![Assign Location to Sites]({{site.baseurl}}/images/cp-design-getting-started-assign-loc-sites2.png)
+
+- Enter the correct name of the location for Houston and Kansas City into the Location text box respectively.
+
 ![Assign Location to Sites]({{site.baseurl}}/images/cp-design-getting-started-assign-loc-sites3.png)
 
-- When finished press OK.
+- When finished select Save.
 
 #### Step 5 Arrange Sites According to Locations
 To arrange sites in the plot according to the defined geographic locations:
