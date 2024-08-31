@@ -103,14 +103,11 @@ You should now see 11 sites. You can click and drag them around. Alternatively y
 #### Step 5 Arrange Sites According to Locations
 To arrange sites in the plot according to the defined geographic locations:
 
-- Select all sites (You can select all sites in the plot or you can select all sites from the Sites property table). 
-- Right click any empty part of the plot and select **“Arrange”**. 
-- You will see a small Arrange menu pop up. 
-- In the Arrange menu you can hover over each tool to see a description of what it does. 
-- Use the globe icon on the bottom right to arrange by the geographic locations. 
-- Now that the site locations are mostly clear, you can use other tools form the arrange menu to make the sites line up nicely or you can click and drag the sites around. 
-- When finished close the arrange menu.  
-![assign_locations_to_sites.gif](assign_locations_to_sites.gif)  
+- Select the Geographical view icon on the topology map.
+- The sites are now rendered according to their geographical location.
+- You may use the zoom buttons to zoom into specific parts of the geographical map.
+
+![Assign Location to Sites]({{site.baseurl}}/images/cp-design-getting-started-assign-loc-sites3.png)
 
 #### Step 6 Create Custom Layouts
 You may have a situation where you want to see many network views of sites or a subset of sites arranged in different ways. You can accomplish this by creating different layouts.
