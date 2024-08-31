@@ -41,9 +41,9 @@ The first step is to import the network model from your desktop to Crosswork Pla
 
 #### Step 2 - Open Network Model in Design
 
-Open the network model that was import earlier. Select the ellipsis [...] icon under the Action column for unprocessed-lab.pln. Select Open.
+Go to Network Design, under My user space > Network models, open the network model imported earlier. Select the ellipsis [...] icon under the Action column for unprocessed-lab.pln. Select Open.
 
-![Open Plan]({{site.baseurl}}/images/cp-design-getting-started-open-plan-open.png)
+![Open Plan]({{site.baseurl}}/images/cp-design-getting-started-open-plan-to-open.png)
 
 After the file opens take note of the following:
 - You are looking at a multivendor network. Crosswork Planning supports collection from Cisco, Juniper, Alcatel Lucent and Huawei.
