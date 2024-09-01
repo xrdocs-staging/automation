@@ -90,17 +90,18 @@ You should now see 11 sites. You can click and drag them around. Alternatively y
 
 ![Assign Location to Sites]({{site.baseurl}}/images/cp-design-getting-started-assign-loc-sites1.png)
 
-- Notice that the guess gets the location of Houston and Kansas City wrong. Select the **More** selection to view the Sites Table. Edit these rows by selecting the ellipsis [...] icon under the actions column and selecting **Edit**.
+- Notice that the guess gets the location of Houston (HST) and Kansas City (KCY) wrong. Select the **More** selection to view the Sites Table. Edit these rows by selecting the ellipsis [...] icon under the actions column and selecting **Edit**.
 
 ![Assign Location to Sites]({{site.baseurl}}/images/cp-design-getting-started-assign-loc-sites2.png)
 
-- Enter the correct name of the location for Houston and Kansas City into the Location text box respectively.
+- Enter the correct name of the location for **Houston, Texas** and **Kansas City, Missouri** into the Location text box respectively 
 
 ![Assign Location to Sites]({{site.baseurl}}/images/cp-design-getting-started-assign-loc-sites3.png)
 
 - When finished select Save.
 
-#### Step 5 Arrange Sites According to Locations
+#### Step 5 Creating Saved Views
+
 To arrange sites in the plot according to the defined geographic locations:
 
 - Select the Geographical view icon on the topology map.
