@@ -53,7 +53,7 @@ After the file opens take note of the following:
 
 ![Open Plan]({{site.baseurl}}/images/cp-design-getting-started-open-plan-opened-filter.png)
 
-- You may select the Plot view to reflect Simulated Traffic, or Measured Traffic. Select the Measured Traffic view. For now this traffic view should be the only selection that has colors appear on the interfaces.  
+- You may select the Plot view to reflect **Simulated Traffic**, or **Measured Traffic**. Select the **Measured Traffic** view. For now this traffic view should be the only selection that has colors appear on the interfaces.  
 - The colors on the interfaces and the amount they are filled represent the measured egress traffic collected. 
 - You may select the Topology Legend icon to display the legend, and colors used to indicate different link traffic utilization levels.
   Hint: You may have to scroll to the bottom of the page to display the colors used for different link traffic utilization levels.
