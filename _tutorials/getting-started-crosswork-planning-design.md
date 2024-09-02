@@ -111,9 +111,9 @@ Crosswork allows for a user preferred view to be saved under **Saved Views**
 ![Saved Views]({{site.baseurl}}/images/cp-design-getting-started-saved-view1.png)
 
 ## Create a Traffic Simulation
-In the upper left corner of Crosswork Planning Design, the selection box should say **Measured Traffic**. If you toggle to **Simulated Traffic**, the interfaces should appear empty. In this section we will use the measured data to create a traffic simulation.
+In the upper left corner of Crosswork Planning Design, the selection box should say **Measured Traffic**. If you toggle to **Simulated Traffic**, the interfaces should appear empty (no colors appear on the interfaces). In this section we will use the measured data to create a traffic simulation.
 
-Crosswork Planning simulates traffic routed through the network using Demands. A demand represents an aggregate per service class flow of traffic from source to destination. Each demand has a traffic value in mbps and is routed according the topology and protocols as defined in the Network Model of the network. 
+Crosswork Planning simulates traffic routed through the network using Demands. A demand represents an aggregate per service class flow of traffic from source to destination. Each demand has a traffic value in Mbps and is routed according the topology and protocols as defined in the Network Model of the network. 
 
 #### Step 8 Create A Demand Mesh
 To create a mesh of demands, first find the edge of the network. You will notice these routers are identified with hostnames `er.<site name>`.
@@ -123,10 +123,19 @@ To create a mesh of demands, first find the edge of the network. You will notice
 ![Select edge nodes]({{site.baseurl}}/images/cp-design-getting-started-create-dmd-select-edge-nodes.png)
 
 - Select **Insert->Demand Mesh**. 
+
+![Insert Demand Mesh]({{site.baseurl}}/images/cp-design-getting-started-insert-dmd-mesh1.png)
+
+- Under Demand mesh details, enter the Demand name **dmd_mesh**.
+
+![Insert Demand Mesh]({{site.baseurl}}/images/cp-design-getting-started-insert-dmd-mesh2.png)
+
 - Under Sources: Nodes: Select "Selected in Table" 
+
+![Insert Demand Mesh]({{site.baseurl}}/images/cp-design-getting-started-insert-dmd-mesh3.png)
+
 - You can keep all the default options and select OK.  
 
-![Select edge nodes]({{site.baseurl}}/images/cp-design-getting-started-insert-dmd-mesh.png)
 
 
 #### Step 9 Run Demand Deduction
