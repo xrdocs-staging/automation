@@ -149,7 +149,7 @@ To run Demand Deduction
 
 ![Demand Deduction Tool]({{site.baseurl}}/images/cp-design-getting-started-dmd-tool.png)
 
-- You can keep all default values and select Next.
+- You can keep all default values and select Next for Options, Output and Run Settings.
 
 ![Demand Deduction Tool]({{site.baseurl}}/images/cp-design-getting-started-dmd-1-options.png)
 
@@ -160,6 +160,8 @@ To run Demand Deduction
 After Demand Deduction has completed running, it will generate a report. Close the report.
 
 Now if you select the Simulated Traffic from the upper left drop down box you should see the links are colored according to their simulated utilization.  
+
+![Demand Deduction Tool]({{site.baseurl}}/images/cp-design-getting-started-dmd-4-done.png)
 
 
 ## What Can You Do With a Network Simulation
