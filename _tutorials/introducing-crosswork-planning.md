@@ -1,7 +1,7 @@
 ---
 published: true
 date: '2024-08-15 00:00 +0800'
-title: Introduction to Crosswork Planning user interface
+title: Introduction to Crosswork Planning User Interface
 tags:
   - cisco
   - WAE
@@ -10,7 +10,7 @@ tags:
   - Design
   - Capacity Planning
 author: Fung Lim
-excerpt: Introducing Crosswork Planning
+excerpt: Introduction to Crosswork Planning User Interface
 ---
 {% include toc %}
 
