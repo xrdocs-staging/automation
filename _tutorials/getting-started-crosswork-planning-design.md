@@ -194,14 +194,13 @@ You can examine what happens if you change any aspect of the model.
 ![Fail a link]({{site.baseurl}}/images/cp-design-getting-started-fail-link2.png)
      
 - What happens if you change a metric?
+    - On the Interfaces table, enter the filter for cr1.lax. Select the ellipsis icon for the row for Remote Node cr2.hst. Select Edit.
+    - Change the Metric to 17, Select Save.
+    - Notice that the Traffic Sim has increased from 398 to 847 Mbps.
 
 ![Edit interface]({{site.baseurl}}/images/cp-design-getting-started-edit-interface1.png)
 ![Edit interface]({{site.baseurl}}/images/cp-design-getting-started-edit-interface2.png)
 ![Edit interface]({{site.baseurl}}/images/cp-design-getting-started-edit-interface3.png)
-
-    - On the Interfaces table, enter the filter for cr1.lax. Select the ellipsis icon for the row for Remote Node cr2.hst. Select Edit.
-    - Change the Metric to 17, Select Save.
-    - Notice that the Traffic Sim has increased from 398 to 847 Mbps.
 
 - What happens if you change the topology?
     - Right click the circuit between CHI and KCY and select Duplicate
