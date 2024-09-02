@@ -106,7 +106,7 @@ Crosswork allows for a user preferred view to be saved under **Saved Views**
 - In the top right corner of the topology map, select the Logical Topology view.
 - Drag the nodes in the topology to provide a preferred view.
 - Save the current view under the Save view selection on the top right corner.
-- Once the view is saved, it will be available under the Saved views selextion.
+- Once the view is saved, it will be available under the Saved views selection.
 
 ![Saved Views]({{site.baseurl}}/images/cp-design-getting-started-saved-view1.png)
 
@@ -151,9 +151,13 @@ To run Demand Deduction
 
 - You can keep all default values and select Next.
 
-![Demand Deduction Tool]({{site.baseurl}}/images/cp-design-getting-started-dmd-options.png)
+![Demand Deduction Tool]({{site.baseurl}}/images/cp-design-getting-started-dmd-1-options.png)
 
-![Demand Deduction Tool]({{site.baseurl}}/images/cp-design-getting-started-dmd-output.png)
+![Demand Deduction Tool]({{site.baseurl}}/images/cp-design-getting-started-dmd-2-output.png)
+
+![Demand Deduction Tool]({{site.baseurl}}/images/cp-design-getting-started-dmd-3-exec.png)
+
+After Demand Deduction has completed running, it will generate a report. Close the report.
 
 Now if you select the Simulated Traffic from the upper left drop down box you should see the links are colored according to their simulated utilization.  
 
