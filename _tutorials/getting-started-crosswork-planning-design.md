@@ -110,34 +110,8 @@ Crosswork allows for a user preferred view to be saved under **Saved Views****
 
 ![Saved Views]({{site.baseurl}}/images/cp-design-getting-started-saved-view1.png)
 
-#### Step 6 Create Custom Layouts
-You may have a situation where you want to see many network views of sites or a subset of sites arranged in different ways. You can accomplish this by creating different layouts.
-
-- Click on the **“Layouts”** selection menu in the upper right corner
-- Select **Edit Layouts**. 
-- Select **New** and create two new layouts
-  - One named **Geographic** with type **Design**
-  - One named **Waethermep** with type **Weathermap**. 
-- Press OK when finished.
-
-#### Step 7 Edit Custom Layouts
-- Toggle the layouts drop down menu to the Geographic layout
-- Right click an open space of the plot and select **Plot Options**. 
-- Under the General Options tab select Geographic and select Outline Background Map. 
-- You can also toggle over to the Design Circuits tab and make the minimum width bigger by entering 10.
-- When finished press OK.  
-
-[DANGER] If you drag sites around using the geographic setting you are changing the sites set longitude and latitude. 
-
-- Toggle the layouts drop down menu to the Weathermap layout. 
-- You can optimally edit any of the same plot options properties used in the previous step. 
-- The key feature of the Weathermap type layout is you can click and drag on a circuit to curve it.  
-- When finished you should be able to toggle through each layout to see a different network view.  
-![create_layouts.gif](create_layouts.gif)  
-
-
 ## Create a Traffic Simulation
-In the upper left corner of Crosswork Planning Design, the selection box should say “Measured Traffic”. If you toggle to “Simulated Traffic”, the interfaces should appear empty. In this section we will use the measured data to create a traffic simulation.
+In the upper left corner of Crosswork Planning Design, the selection box should say **Measured Traffic**. If you toggle to **Simulated Traffic**, the interfaces should appear empty. In this section we will use the measured data to create a traffic simulation.
 
 Crosswork Planning simulates traffic routed through the network using Demands. A demand represents an aggregate per service class flow of traffic from source to destination. Each demand has a traffic value in mbps and is routed according the topology and protocols as defined in the Network Model of the network. 
 
@@ -145,6 +119,9 @@ Crosswork Planning simulates traffic routed through the network using Demands. A
 To create a mesh of demands, first find the edge of the network. You will notice these routers are identified with hostnames `er.<site name>`.
 
 - In the Nodes property table, you can click on the node name column header to sort the nodes. Select only these nodes that begin with "er1" in the table. 
+
+![Select edge nodes]({{site.baseurl}}/images/cp-design-getting-started-create-dmd-select-edge-nodes.png)
+
 - Select **Insert->Demand Mesh**. 
 - Under Sources: Nodes: Select "Selected in Table" 
 - You can keep all the default options and select OK.  
