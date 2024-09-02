@@ -145,8 +145,13 @@ Now the demands are in the model, but the demand traffic values are 0 (mbps). Cr
 
 To run Demand Deduction
   
-- Select **Tools->Demand Deduction**. 
-- You can keep all default values and select OK.
+- Select **Actions > Tools > Demand Deduction**. 
+
+![Demand Deduction Tool]({{site.baseurl}}/images/cp-design-getting-started-dmd-tool.png)
+
+- You can keep all default values and select Next.
+
+![Demand Deduction Tool]({{site.baseurl}}/images/cp-design-getting-started-dmd-options.png)
 
 Now if you select the Simulated Traffic from the upper left drop down box you should see the links are colored according to their simulated utilization.  
 ![dmd_deduct.gif](dmd_deduct.gif) 
