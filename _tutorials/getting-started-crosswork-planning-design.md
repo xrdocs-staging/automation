@@ -102,7 +102,7 @@ You should now see 11 sites. You can click and drag them around. Alternatively y
 
 #### Step 5 Creating Saved Views
 
-Crosswork allows for a user preferred view to be saved under **Saved Views****
+Crosswork allows for a user preferred view to be saved under **Saved Views**
 - In the top right corner of the topology map, select the Logical Topology view.
 - Drag the nodes in the topology to provide a preferred view.
 - Save the current view under the Save view selection on the top right corner.
@@ -125,8 +125,9 @@ To create a mesh of demands, first find the edge of the network. You will notice
 - Select **Insert->Demand Mesh**. 
 - Under Sources: Nodes: Select "Selected in Table" 
 - You can keep all the default options and select OK.  
-  
-![insert_dmd_mesh.gif](insert_dmd_mesh.gif)  
+
+![Select edge nodes]({{site.baseurl}}/images/cp-design-getting-started-insert-dmd-mesh.png)
+
 
 #### Step 9 Run Demand Deduction
 Now the demands are in the model, but the demand traffic values are 0 (mbps). Crosswork Planning has a tool called Demand Deduction that uses measured data from the network to determine what the demand traffic values should be.
