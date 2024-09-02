@@ -186,15 +186,13 @@ You can examine what happens if you change any aspect of the model.
 #### Step 10 Examine a Few Scenarios
 - What happens if a link fails?
     - On the Interfaces table, enter the filter for Node cr1.nyc and Remote Node cr2.wdc. Select the ellipsis icon and select Fail to fail this link.
+    - Notice that the links between cr2.chi and cr2.kcy, and from cr2.nyc to cr1.chi (along with other links) has high utilization as a result of the single link failure.
+    - When done, Recover the link by selecting the ellipsis icon and select Recover.
 
 ![Demand Deduction Tool]({{site.baseurl}}/images/cp-design-getting-started-fail-link1.png)
 
-    - Notice that the links between cr2.chi and cr2.kcy, and from cr2.nyc to cr1.chi (along with other links) has high utilization as a result of the single link failure.
-
 ![Demand Deduction Tool]({{site.baseurl}}/images/cp-design-getting-started-fail-link2.png)
      
-    - When done, recover the link by selecting the ellipsis icon and select Recover.
-
 - What happens if you change a metric?
     - Right click the circuit between LAX and HST and select Properties
     - Change the Metric to 17
