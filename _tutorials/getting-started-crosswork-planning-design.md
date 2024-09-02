@@ -199,7 +199,9 @@ You can examine what happens if you change any aspect of the model.
     - Notice that the Traffic Sim has increased from 398 to 847 Mbps.
 
 ![Edit interface]({{site.baseurl}}/images/cp-design-getting-started-edit-interface1.png)
+
 ![Edit interface]({{site.baseurl}}/images/cp-design-getting-started-edit-interface2.png)
+
 ![Edit interface]({{site.baseurl}}/images/cp-design-getting-started-edit-interface3.png)
 
 - What happens if you change the topology?
