@@ -208,13 +208,13 @@ You can examine what happens if you change any aspect of the model.
     - Insert a new interface from cr1.lax to cr1.nyc, using default for all values.
     - Watch what happens to the traffic from other links as this link gets added.
 
-![Edit interface]({{site.baseurl}}/images/cp-design-getting-started-add-circuit1.png)
+![Edit interface]({{site.baseurl}}/images/cp-design-getting-started-add-circuit-1.png)
 
-![Edit interface]({{site.baseurl}}/images/cp-design-getting-started-add-circuit2.png)
+![Edit interface]({{site.baseurl}}/images/cp-design-getting-started-add-circuit-2.png)
 
-![Edit interface]({{site.baseurl}}/images/cp-design-getting-started-add-circuit3.png)
+![Edit interface]({{site.baseurl}}/images/cp-design-getting-started-add-circuit-3.png)
 
-![Edit interface]({{site.baseurl}}/images/cp-design-getting-started-add-circuit4.png)
+![Edit interface]({{site.baseurl}}/images/cp-design-getting-started-add-circuit-4.png)
 
 In the previous steps you have seen some of the simple cases you can examine with the simulation. Now lets look at some use cases.
 
