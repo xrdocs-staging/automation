@@ -139,6 +139,8 @@ To create a mesh of demands, first find the edge of the network. You will notice
 #### Step 9 Run Demand Deduction
 Now the demands are in the model, but the demand traffic values are 0 (mbps). Crosswork Planning has a tool called Demand Deduction that uses measured data from the network to determine what the demand traffic values should be.
 
+![Insert Demand Mesh]({{site.baseurl}}/images/cp-design-getting-started-dmd-no-traffic.png)
+
 [INFO] In this network we have collected SNMP traffic data on the interfaces.  If you select an interface and filter to demands, notice that the sum of the demands going through the interface must equal the measured traffic value. If you were to do this on the entire network, you would begin to see a large system of linear equations. Crosswork Planning Design has a tool called Demand Deduction that takes this, and other information into account to solve the per demand traffic values. NetFlow data can be used in helping determine the demand values, but NetFlow is not requirement for this process. 
 
 To run Demand Deduction
