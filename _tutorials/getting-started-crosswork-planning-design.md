@@ -122,7 +122,7 @@ To create a mesh of demands, first find the edge of the network. You will notice
 
 ![Select edge nodes]({{site.baseurl}}/images/cp-design-getting-started-create-dmd-select-edge-nodes.png)
 
-- Select **Insert->Demand Mesh**. 
+- Select **Actions > Insert > Demands > Demand Mesh**. 
 
 ![Insert Demand Mesh]({{site.baseurl}}/images/cp-design-getting-started-insert-dmd-mesh1.png)
 
@@ -134,9 +134,7 @@ To create a mesh of demands, first find the edge of the network. You will notice
 
 ![Insert Demand Mesh]({{site.baseurl}}/images/cp-design-getting-started-insert-dmd-mesh3.png)
 
-- You can keep all the default options and select OK.  
-
-
+- You can keep all the default options and select **Save**.  
 
 #### Step 9 Run Demand Deduction
 Now the demands are in the model, but the demand traffic values are 0 (mbps). Crosswork Planning has a tool called Demand Deduction that uses measured data from the network to determine what the demand traffic values should be.
