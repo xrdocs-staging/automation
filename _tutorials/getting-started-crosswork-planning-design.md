@@ -153,8 +153,10 @@ To run Demand Deduction
 
 ![Demand Deduction Tool]({{site.baseurl}}/images/cp-design-getting-started-dmd-options.png)
 
+![Demand Deduction Tool]({{site.baseurl}}/images/cp-design-getting-started-dmd-output.png)
+
 Now if you select the Simulated Traffic from the upper left drop down box you should see the links are colored according to their simulated utilization.  
-![dmd_deduct.gif](dmd_deduct.gif) 
+
 
 ## What Can You Do With a Network Simulation
 The following tasks will take you through some of the things you can do with a network simulation. 
