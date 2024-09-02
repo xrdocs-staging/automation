@@ -178,6 +178,10 @@ If you have completed the previous steps, you can continue to use the same netwo
 
 [DANGER] All the steps below assume you are starting with this plan.
 
+Note: Crosswork Planning by default has Auto-Simulate set to off. This means that after any changes, the user will need to select the Simulate button in order to run simulation. This provides the benefit of a more responsive interface and reduced resource consumption. If desired, you may toggle Auto-Simulate to on by selecting the settings icon on the top-right-hand corner of the Network Design screen.
+
+![Auto Resimulate Setting]({{site.baseurl}}/images/cp-design-getting-started-auto-resimulate.png)
+
 ### What if Analysis
 You can examine what happens if you change any aspect of the model.  
 #### Step 10 Examine a Few Scenarios
