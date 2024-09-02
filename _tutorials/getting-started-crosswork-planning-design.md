@@ -102,13 +102,13 @@ You should now see 11 sites. You can click and drag them around. Alternatively y
 
 #### Step 5 Creating Saved Views
 
-To arrange sites in the plot according to the defined geographic locations:
+Crosswork allows for a user preferred view to be saved under **Saved Views****
+- In the top right corner of the topology map, select the Logical Topology view.
+- Drag the nodes in the topology to provide a preferred view.
+- Save the current view under the Save view selection on the top right corner.
+- Once the view is saved, it will be available under the Saved views selextion.
 
-- Select the Geographical view icon on the topology map.
-- The sites are now rendered according to their geographical location.
-- You may use the zoom buttons to zoom into specific parts of the geographical map.
-
-![Assign Location to Sites]({{site.baseurl}}/images/cp-design-getting-started-assign-loc-sites3.png)
+![Saved Views]({{site.baseurl}}/images/cp-design-getting-started-saved-view1.png)
 
 #### Step 6 Create Custom Layouts
 You may have a situation where you want to see many network views of sites or a subset of sites arranged in different ways. You can accomplish this by creating different layouts.
