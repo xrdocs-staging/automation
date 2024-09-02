@@ -205,10 +205,16 @@ You can examine what happens if you change any aspect of the model.
 ![Edit interface]({{site.baseurl}}/images/cp-design-getting-started-edit-interface3.png)
 
 - What happens if you change the topology?
-    - Right click the circuit between CHI and KCY and select Duplicate
-- When finished set the metric back and delete the extra link
-- Right click and empty area of the plot and select Recover-><Failed Circuit>
-![what_if.gif](what_if.gif)  
+    - Insert a new interface from cr1.lax to cr1.nyc, using default for all values.
+    - Watch what happens to the traffic from other links as this link gets added.
+
+![Edit interface]({{site.baseurl}}/images/cp-design-getting-started-add-circuit1.png)
+
+![Edit interface]({{site.baseurl}}/images/cp-design-getting-started-add-circuit2.png)
+
+![Edit interface]({{site.baseurl}}/images/cp-design-getting-started-add-circuit3.png)
+
+![Edit interface]({{site.baseurl}}/images/cp-design-getting-started-add-circuit4.png)
 
 In the previous steps you have seen some of the simple cases you can examine with the simulation. Now lets look at some use cases.
 
