@@ -277,8 +277,7 @@ Before adding traffic to your network, you would like to know the impact the tra
 ### Capacity Planning with Resiliency Analysis
 [INFO] Make sure you have reversed any changes made in the previous step. Crosswork Planning Design does not have an "undo" function so you need to undo any changes manually.  You can always re-download and open up a copy of the model using the button below the heading "What Can You Do With a Network Simulation".
 
-
-You have simulated the impact to the network of a circuit failure. In Design you can also simulate what happens if a node, srlg, lag, l1 object or a site were to fail. If you were to go through each element one by one, you would get a "worst case" view of where you are most at risk of congestion and you would also get a view of the failures that case the worst case, the "failure impact". Crosswork Planning Design has the Simulation Analysis tool to automate this process and provide that analysis. 
+You have simulated the impact to the network of a circuit failure. In Design you can also simulate what happens if a node, srlg, lag or a site were to fail. If you were to go through each element one by one, you would get a "worst case" view of where you are most at risk of congestion and you would also get a view of the failures that case the worst case, the "failure impact". Crosswork Planning Design has the Simulation Analysis tool to automate this process and provide that analysis. 
 
 Crosswork Planning Design is also very extensible and provides an API that can be used to enhance the available tools. One example is an add-on called circuit upgrade. It will examine the simulation and determine what circuits should be upgraded and by how much. 
 
