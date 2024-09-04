@@ -272,7 +272,7 @@ Before adding traffic to your network, you would like to know the impact the tra
 
 ![Add Demands]({{site.baseurl}}/images/cp-design-getting-started-rsvp-opt-5.png)
 
-- Delete the added demand and LSP to prepare for the next exercise by selecting them in their respective tables, right click and select Delete.
+- Delete the added demand and LSP to prepare for the next exercise.
 
 ### Capacity Planning with Resiliency Analysis
 [INFO] Make sure you have reversed any changes made in the previous step. Crosswork Planning Design does not have an "undo" function so you need to undo any changes manually.  You can always re-download and open up a copy of the model using the button below the heading "What Can You Do With a Network Simulation".
