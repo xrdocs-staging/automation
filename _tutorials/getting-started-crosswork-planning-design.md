@@ -230,7 +230,7 @@ Before adding traffic to your network, you would like to know the impact the tra
     - Give the demand a source: er1.bos
     - Give the demand a destination: er1.mia
     - Give the demand an amount of Traffic (mbps): 300
-    - Click OK
+    - Select Add
     - Observe congestion on Interface: cr1.nyc GigabitEthernet0/0/3/0
 
 ![Add Demands]({{site.baseurl}}/images/cp-design-getting-started-add-demand-1.png)
@@ -240,13 +240,17 @@ Before adding traffic to your network, you would like to know the impact the tra
 ![Add Demands]({{site.baseurl}}/images/cp-design-getting-started-add-demand-5.png)
 
 - Add a MPLS RSVP Tunnel
-    - Insert a new Tunnel by selecting **Insert->LSPs->LSP** or right click and empty area of the plot and select **New->LSPs->LSP**
-    - Give the tunnel a type: RSVP
+    - Insert a new Tunnel by selecting **Actions > Insert > LSPs > LSP**
+    - Select tunnel type: RSVP
+    - Give the tunnel a name: rsvp_to_er1.mia
     - Give the tunnel a source: er1.bos
     - Give the demand a destination: er1.mia
-    - Click OK
+    - Select Save
     - Select the LSP in the LSPs property table to observe its path.
-      ![add_lsp.gif](add_lsp.gif)
+
+![Add Demands]({{site.baseurl}}/images/cp-design-getting-started-insert-lsp-1.png)
+![Add Demands]({{site.baseurl}}/images/cp-design-getting-started-insert-lsp-2.png)
+
 - Optimize the Network
     - Select **Tools->RSVP LSP Optimization -> Tactical Explicit Opt**
     - Set Acceptable Interface Utilization %: 90
