@@ -235,9 +235,7 @@ Before adding traffic to your network, you would like to know the impact the tra
 
 ![Add Demands]({{site.baseurl}}/images/cp-design-getting-started-add-demand-1.png)
 
-![Add Demands]({{site.baseurl}}/images/cp-design-getting-started-add-demand-2.png)
-
-![Add Demands]({{site.baseurl}}/images/cp-design-getting-started-add-demand-3.png)
+![Add Demands]({{site.baseurl}}/images/cp-design-getting-started-add-demand-4.png)
 
 - Add a MPLS RSVP Tunnel
     - Insert a new Tunnel by selecting **Insert->LSPs->LSP** or right click and empty area of the plot and select **New->LSPs->LSP**
