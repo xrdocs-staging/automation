@@ -249,15 +249,30 @@ Before adding traffic to your network, you would like to know the impact the tra
     - Select the LSP in the LSPs property table to observe its path.
 
 ![Add Demands]({{site.baseurl}}/images/cp-design-getting-started-insert-lsp-1.png)
+
 ![Add Demands]({{site.baseurl}}/images/cp-design-getting-started-insert-lsp-2.png)
 
+![Add Demands]({{site.baseurl}}/images/cp-design-getting-started-insert-lsp-3.png)
+
 - Optimize the Network
-    - Select **Tools->RSVP LSP Optimization -> Tactical Explicit Opt**
-    - Set Acceptable Interface Utilization %: 90
-    - Click OK
+    - Select **Actions > Tools > RSVP LSP Optimization > Tactical explicit optimization**
+    - Select All interfaces, select Next
+    - Select the LSPs you want to optimize (the LSP should be selected)
+    - Set Acceptable Interface Utilization %: 90 (leave the rest of the parameters as default), Select Next
+    - Select Execute Now
     - A new Network Model will be produced, In the new plan select the LSP in the LSPs property table to observe the new path
-      ![tct_opt.gif](tct_opt.gif)    
+
+![Add Demands]({{site.baseurl}}/images/cp-design-getting-started-rsvp-opt-1.png)
+
+![Add Demands]({{site.baseurl}}/images/cp-design-getting-started-rsvp-opt-2.png)
+
+![Add Demands]({{site.baseurl}}/images/cp-design-getting-started-rsvp-opt-3.png)
+
+![Add Demands]({{site.baseurl}}/images/cp-design-getting-started-rsvp-opt-4.png)
+
 - Delete the added demand and LSP to prepare for the next exercise by selecting them in their respective tables, right click and select Delete.
+
+
 
 ### Capacity Planning with Resiliency Analysis
 [INFO] Make sure you have reversed any changes made in the previous step. Crosswork Planning Design does not have an "undo" function so you need to undo any changes manually.  You can always re-download and open up a copy of the model using the button below the heading "What Can You Do With a Network Simulation".
