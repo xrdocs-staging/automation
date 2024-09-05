@@ -174,7 +174,7 @@ If you have completed the previous steps, you can continue to use the same netwo
 
 [DANGER] All the steps below assume you are starting with this plan.
 
-Note: Crosswork Planning by default has Auto-Simulate set to off. This means that after any changes, the user will need to select the Simulate button in order to run simulation. This provides the benefit of a more responsive interface and reduced resource consumption. If desired, you may toggle Auto-Simulate to on by selecting the settings icon on the top-right-hand corner of the Network Design screen.
+Note: Crosswork Planning by default has Auto-Simulate set to off. This means that after any changes, the user will need to select the Simulate button in order to run simulation. This provides the benefit of a more responsive interface with reduced resource consumption. If desired, you may toggle Auto-Simulate to on by selecting the settings icon on the top-right-hand corner of the Network Design screen and checking the Auto-resimulate checkbox.
 
 ![Auto Resimulate Setting]({{site.baseurl}}/images/cp-design-getting-started-auto-resimulate.png)
 
@@ -186,32 +186,34 @@ You can examine what happens if you change any aspect of the model.
     - Notice that the links between cr2.chi and cr2.kcy, and from cr2.nyc to cr1.chi (along with other links) has high utilization as a result of the single link failure.
     - When done, Recover the link by selecting the ellipsis icon and select Recover.
 
-![Fail a link]({{site.baseurl}}/images/cp-design-getting-started-fail-link1.png)
+![Select and fail a link]({{site.baseurl}}/images/cp-design-getting-started-fail-link1.png)
 
-![Fail a link]({{site.baseurl}}/images/cp-design-getting-started-fail-link2.png)
+![Recover a failed link]({{site.baseurl}}/images/cp-design-getting-started-fail-link2.png)
      
 - What happens if you change a metric?
     - On the Interfaces table, enter the filter for cr1.lax. Select the ellipsis icon for the row for Remote Node cr2.hst. Select Edit.
     - Change the Metric to 17, Select Save.
     - Notice that the Traffic Sim has increased from 398 to 847 Mbps.
 
-![Edit interface]({{site.baseurl}}/images/cp-design-getting-started-edit-interface1.png)
+![Select and edit an interface]({{site.baseurl}}/images/cp-design-getting-started-edit-interface1.png)
 
-![Edit interface]({{site.baseurl}}/images/cp-design-getting-started-edit-interface2.png)
+![Edit interface IGP metric]({{site.baseurl}}/images/cp-design-getting-started-edit-interface2.png)
 
-![Edit interface]({{site.baseurl}}/images/cp-design-getting-started-edit-interface3.png)
+![Topology map showing high utilization]({{site.baseurl}}/images/cp-design-getting-started-edit-interface3a.png)
 
 - What happens if you change the topology?
     - Insert a new interface from cr1.lax to cr1.nyc, using default for all values.
     - Watch what happens to the traffic from other links as this link gets added.
+    - This example shows that we can introduce congestions on other links if we add circuits without due consideration.
+    - This is where tools such as Crosswork Planning would be useful.
 
-![Edit interface]({{site.baseurl}}/images/cp-design-getting-started-add-circuit-1.png)
+![Insert Circuit]({{site.baseurl}}/images/cp-design-getting-started-add-circuit-1.png)
 
-![Edit interface]({{site.baseurl}}/images/cp-design-getting-started-add-circuit-2.png)
+![Add Circuit Details - Interface A]({{site.baseurl}}/images/cp-design-getting-started-add-circuit-2.png)
 
-![Edit interface]({{site.baseurl}}/images/cp-design-getting-started-add-circuit-3.png)
+![Add Circuit Details - Interface B]({{site.baseurl}}/images/cp-design-getting-started-add-circuit-3.png)
 
-![Edit interface]({{site.baseurl}}/images/cp-design-getting-started-add-circuit-4.png)
+![Topology view after Add Circuit]({{site.baseurl}}/images/cp-design-getting-started-add-circuit-4.png)
 
 In the previous steps you have seen some of the simple cases you can examine with the simulation. Now lets look at some use cases.
 
