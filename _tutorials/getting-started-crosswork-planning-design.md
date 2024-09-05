@@ -298,28 +298,38 @@ You have simulated the impact to the network of a circuit failure. In Design you
 
 ![Sim Analysis]({{site.baseurl}}/images/cp-design-getting-started-sim-analysis-1.png)
 
-![Sim Analysis]({{site.baseurl}}/images/cp-design-getting-started-sim-analysis-2.png)
+![Sim Analysis Select Failure Sets]({{site.baseurl}}/images/cp-design-getting-started-sim-analysis-2.png)
 
-![Sim Analysis]({{site.baseurl}}/images/cp-design-getting-started-sim-analysis-3.png)
-
-![Sim Analysis Worst Case Traffic View]({{site.baseurl}}/images/cp-design-getting-started-sim-analysis-4-wc.png)
+![Sim Analysis Run Settings]({{site.baseurl}}/images/cp-design-getting-started-sim-analysis-3.png)
 
 ![Sim Analysis Worst Case Traffic View]({{site.baseurl}}/images/cp-design-getting-started-sim-analysis-4-wc.png)
 
-![Sim Analysis Worst Case Traffic View]({{site.baseurl}}/images/cp-design-getting-started-sim-analysis-5-fail-to-wc.png)
+![Sim Analysis Fail to WC]({{site.baseurl}}/images/cp-design-getting-started-sim-analysis-5-fail-to-wc.png)
 
-![Sim Analysis Worst Case Traffic View]({{site.baseurl}}/images/cp-design-getting-started-sim-analysis-6-fail-to-wc.png)
+![Sim Analysis Fail to WC]({{site.baseurl}}/images/cp-design-getting-started-sim-analysis-6-fail-to-wc.png)
 
- - Run the Circuit Upgrade add on to see how much capacity you need and where
-     - Select **Add-Ons->Circuit Upgrade**
+ - Run the Capacity Planning Optimization Tool to determine how much capacity you need and where
+     - Select **Actions > Tools > Capacity Planning Optimization**
      - Enter a Utilization threshold %: 90
      - Enter BW Increment: 1000
-     - Enter Utilization Column: WCUtil
-     - Select Produced Resized Plan
-     - Click OK
+     - Select All Circuits to be eligible for upgrades, select Next
+     - Under Advanced, Failure sets, select Circuits, select Next
+     - Under Run Settings, select Execute Now
      - A new Network Model will be created and a report window will appear. You can see where new capacity was added.
      - You can re-run simulation analysis on the new plan and see the worst case differences before and after  
-  ![circuit_upgrade.gif](circuit_upgrade.gif) 
+
+
+![Capacity Planning Opt]({{site.baseurl}}/images/cp-design-getting-started-capacity-plan-opt-1.png)
+
+![Capacity Planning Opt]({{site.baseurl}}/images/cp-design-getting-started-capacity-plan-opt-2.png)
+
+![Capacity Planning Opt]({{site.baseurl}}/images/cp-design-getting-started-capacity-plan-opt-3.png)
+
+![Capacity Planning Opt]({{site.baseurl}}/images/cp-design-getting-started-capacity-plan-opt-4.png)
+
+![Capacity Planning Opt]({{site.baseurl}}/images/cp-design-getting-started-capacity-plan-opt-5.png)
+
+![Capacity Planning Opt]({{site.baseurl}}/images/cp-design-getting-started-capacity-plan-opt-6.png)
 
 ### Capacity Planning and Forecasting
 [INFO] Make sure you have reversed any changes made in the previous step. Crosswork Planning Design does not have an "undo" function so you need to undo any changes manually.  You can always re-download and open up a copy of the model using the button below the heading "What Can You Do With a Network Simulation".
