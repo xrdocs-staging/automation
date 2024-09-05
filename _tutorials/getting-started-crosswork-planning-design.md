@@ -302,6 +302,14 @@ You have simulated the impact to the network of a circuit failure. In Design you
 
 ![Sim Analysis]({{site.baseurl}}/images/cp-design-getting-started-sim-analysis-3.png)
 
+![Sim Analysis Worst Case Traffic View]({{site.baseurl}}/images/cp-design-getting-started-sim-analysis-4-wc.png)
+
+![Sim Analysis Worst Case Traffic View]({{site.baseurl}}/images/cp-design-getting-started-sim-analysis-4-wc.png)
+
+![Sim Analysis Worst Case Traffic View]({{site.baseurl}}/images/cp-design-getting-started-sim-analysis-5-fail-to-wc.png)
+
+![Sim Analysis Worst Case Traffic View]({{site.baseurl}}/images/cp-design-getting-started-sim-analysis-6-fail-to-wc.png)
+
  - Run the Circuit Upgrade add on to see how much capacity you need and where
      - Select **Add-Ons->Circuit Upgrade**
      - Enter a Utilization threshold %: 90
