@@ -213,7 +213,7 @@ You can examine what happens if you change any aspect of the model.
 
 ![Add Circuit Details - Interface B]({{site.baseurl}}/images/cp-design-getting-started-add-circuit-3.png)
 
-![Topology view after Add Circuit]({{site.baseurl}}/images/cp-design-getting-started-add-circuit-4.png)
+![Topology view after Add Circuit]({{site.baseurl}}/images/cp-design-getting-started-add-circuit-4a.png)
 
 In the previous steps you have seen some of the simple cases you can examine with the simulation. Now lets look at some use cases.
 
