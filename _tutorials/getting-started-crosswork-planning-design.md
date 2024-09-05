@@ -37,13 +37,13 @@ Note: Some tasks in this exercise are usually performed during the collection an
 
 The first step is to import the network model from your desktop to Crosswork Planning. This is performed by going to Network Models > Import Plan File. Use the Browse button to select the plan file from your desktop. Once the network model has been imported successfully, it may be found under Network Models > My user space > Network Models.
 
-![Import Plan]({{site.baseurl}}/images/cp-design-getting-started-import-plan-select.png)
+![Import Plan File]({{site.baseurl}}/images/cp-design-getting-started-import-plan-select.png)
 
 #### Step 2 - Open Network Model in Design
 
 Go to Network Design, under My user space > Network models, open the network model imported earlier. Select the ellipsis [...] icon under the Action column for unprocessed-lab.pln. Select Open.
 
-![Open Plan]({{site.baseurl}}/images/cp-design-getting-started-open-plan-to-open.png)
+![Open Plan File]({{site.baseurl}}/images/cp-design-getting-started-open-plan-to-open.png)
 
 After the file opens take note of the following:
 - You are looking at a multivendor network. Crosswork Planning supports collection from Cisco, Juniper, Alcatel Lucent and Huawei.
@@ -51,7 +51,7 @@ After the file opens take note of the following:
 - You can select and drag nodes to change their position.
 - You can select the settings icon to show/hide tables, floating filter, Advanced filter, and Cross table filter to see available actions, or to filter to related objects.
 
-![Open Plan]({{site.baseurl}}/images/cp-design-getting-started-open-plan-opened-filter.png)
+![Show/Hide Tables and Filters]({{site.baseurl}}/images/cp-design-getting-started-open-plan-opened-filter.png)
 
 - You may select the Plot view to reflect **Simulated Traffic**, or **Measured Traffic**. Select the **Measured Traffic** view. For now this traffic view should be the only selection that has colors appear on the interfaces.  
 - The colors on the interfaces and the amount they are filled represent the measured egress traffic collected. 
@@ -59,7 +59,7 @@ After the file opens take note of the following:
   Hint: You may have to scroll to the bottom of the page to display the colors used for different link traffic utilization levels.
 - The measured data in the model represents the period from which the data was collected from the network. This is the model used in the Crosswork Planning Design application. 
 
-![Open Plan]({{site.baseurl}}/images/cp-design-getting-started-open-plot-view.png)
+![Plot view, Measured Traffic]({{site.baseurl}}/images/cp-design-getting-started-open-plot-view.png)
 
 ## Logically Group Nodes
 The Crosswork Planning network model allows you to group nodes together in a “site”. Additionally you can group a site in another site. The flexibility enables you to make complicated topologies simple and easy to navigate.  
@@ -70,16 +70,16 @@ You can create a new site by selecting Insert->Site then assigning nodes to the 
 - Select **Actions > Initializers > Assign Sites to Nodes**. 
 
 - First select all nodes by selecting the checkbox as shown.
-![Assign Nodes to Sites]({{site.baseurl}}/images/cp-design-getting-started-assign-nodes-sites1.png)
+![Assign Nodes to Sites - Select Nodes]({{site.baseurl}}/images/cp-design-getting-started-assign-nodes-sites1.png)
 
 - In the Nodes to Site Mapping Rules the delimiters being used are `.` `-` and `:`. Since a `.`is being used to separate the nodes function and location, in the **Site name:** field use `$2`. 
-![Assign Nodes to Sites]({{site.baseurl}}/images/cp-design-getting-started-assign-nodes-sites2.png)
+![Assign Nodes to Sites - Initialize Settings]({{site.baseurl}}/images/cp-design-getting-started-assign-nodes-sites2.png)
 
 - You will be presented with a Preview on what nodes will be assigned to each site.
-![Assign Nodes to Sites]({{site.baseurl}}/images/cp-design-getting-started-assign-nodes-sites3.png)
+![Assign Nodes to Sites - Preview]({{site.baseurl}}/images/cp-design-getting-started-assign-nodes-sites3.png)
 
 - Observe that the node assignment to sites has been completed.
-![Assign Nodes to Sites]({{site.baseurl}}/images/cp-design-getting-started-assign-nodes-sites4.png)
+![Assign Nodes to Sites - Completion]({{site.baseurl}}/images/cp-design-getting-started-assign-nodes-sites4.png)
 
 #### Step 4 Assign Locations to Sites
 You should now see 11 sites. You can click and drag them around. Alternatively you can assign sites to geographic locations.
@@ -88,15 +88,15 @@ You should now see 11 sites. You can click and drag them around. Alternatively y
 - Select **Actions > Initializers > Assign Locations to Sites**.
 - Select **Best match > Best match by site**, Select **Save**
 
-![Assign Location to Sites]({{site.baseurl}}/images/cp-design-getting-started-assign-loc-sites1.png)
+![Assign Locations to Sites]({{site.baseurl}}/images/cp-design-getting-started-assign-loc-sites1.png)
 
 - Notice that the guess gets the location of Houston (HST) and Kansas City (KCY) wrong. Select the **More** selection to view the Sites Table. Edit these rows by selecting the ellipsis [...] icon under the actions column and selecting **Edit**.
 
-![Assign Location to Sites]({{site.baseurl}}/images/cp-design-getting-started-assign-loc-sites2.png)
+![Edit Site]({{site.baseurl}}/images/cp-design-getting-started-assign-loc-sites2.png)
 
 - Enter the correct name of the location for **Houston, Texas** and **Kansas City, Missouri** into the Location text box respectively 
 
-![Assign Location to Sites]({{site.baseurl}}/images/cp-design-getting-started-assign-loc-sites3.png)
+![Edit Site Example - Houston, Texas]({{site.baseurl}}/images/cp-design-getting-started-assign-loc-sites3.png)
 
 - When finished select Save.
 
@@ -108,7 +108,7 @@ Crosswork allows for a user preferred view to be saved under **Saved Views**
 - Save the current view under the Save view selection on the top right corner.
 - Once the view is saved, it will be available under the Saved views selection.
 
-![Saved Views]({{site.baseurl}}/images/cp-design-getting-started-saved-view1.png)
+![Save current view]({{site.baseurl}}/images/cp-design-getting-started-saved-view1.png)
 
 ## Create a Traffic Simulation
 In the upper left corner of Crosswork Planning Design, the selection box should say **Measured Traffic**. If you toggle to **Simulated Traffic**, the interfaces should appear empty (no colors appear on the interfaces). In this section we will use the measured data to create a traffic simulation.
@@ -128,18 +128,18 @@ To create a mesh of demands, first find the edge of the network. You will notice
 
 - Under Demand mesh details, enter the Demand name **dmd_mesh**.
 
-![Insert Demand Mesh]({{site.baseurl}}/images/cp-design-getting-started-insert-dmd-mesh2.png)
+![Enter Demand Name]({{site.baseurl}}/images/cp-design-getting-started-insert-dmd-mesh2.png)
 
 - Under Sources: Nodes: Select "Selected in Table" 
 
-![Insert Demand Mesh]({{site.baseurl}}/images/cp-design-getting-started-insert-dmd-mesh3.png)
+![Select Demand Sources]({{site.baseurl}}/images/cp-design-getting-started-insert-dmd-mesh3.png)
 
 - You can keep all the default options and select **Save**.  
 
 #### Step 9 Run Demand Deduction
 Now the demands are in the model, but the demand traffic values are 0 (mbps). Crosswork Planning has a tool called Demand Deduction that uses measured data from the network to determine what the demand traffic values should be.
 
-![Insert Demand Mesh]({{site.baseurl}}/images/cp-design-getting-started-dmd-no-traffic.png)
+![Demands traffic are zero]({{site.baseurl}}/images/cp-design-getting-started-dmd-no-traffic.png)
 
 [INFO] In this network we have collected SNMP traffic data on the interfaces.  If you select an interface and filter to demands, notice that the sum of the demands going through the interface must equal the measured traffic value. If you were to do this on the entire network, you would begin to see a large system of linear equations. Crosswork Planning Design has a tool called Demand Deduction that takes this, and other information into account to solve the per demand traffic values. NetFlow data can be used in helping determine the demand values, but NetFlow is not requirement for this process. 
 
@@ -147,33 +147,30 @@ To run Demand Deduction
   
 - Select **Actions > Tools > Demand Deduction**. 
 
-![Demand Deduction Tool]({{site.baseurl}}/images/cp-design-getting-started-dmd-tool.png)
+![Select Demand Deduction]({{site.baseurl}}/images/cp-design-getting-started-dmd-tool.png)
 
 - You can keep all default values and select Next for Options, Output and Run Settings.
 
-![Demand Deduction Tool]({{site.baseurl}}/images/cp-design-getting-started-dmd-1-options.png)
+![Enter Demand Deduction Options]({{site.baseurl}}/images/cp-design-getting-started-dmd-1-options.png)
 
-![Demand Deduction Tool]({{site.baseurl}}/images/cp-design-getting-started-dmd-2-output.png)
+![Select Demand Deduction Output]({{site.baseurl}}/images/cp-design-getting-started-dmd-2-output.png)
 
-![Demand Deduction Tool]({{site.baseurl}}/images/cp-design-getting-started-dmd-3-exec.png)
+![Demand Deduction Run Settings]({{site.baseurl}}/images/cp-design-getting-started-dmd-3-exec.png)
 
 After Demand Deduction has completed running, it will generate a report. Close the report.
 
-Now if you select the Simulated Traffic from the upper left drop down box you should see the links are colored according to their simulated utilization.  
+Now if you select the Simulated Traffic from the upper left drop down box you should see the links are colored according to their simulated utilization. 
 
-![Demand Deduction Tool]({{site.baseurl}}/images/cp-design-getting-started-dmd-4-done.png)
+On the following tables, the fields would have been populated
+- Demands table, traffic field
+- Interfaces table, simulated traffic field
+
+![Simulated Traffic Plot view showing link colors]({{site.baseurl}}/images/cp-design-getting-started-dmd-4-done.png)
 
 ## What Can You Do With a Network Simulation
 The following tasks will take you through some of the things you can do with a network simulation. 
 
-If you have completed the previous steps, you can continue to use the same network model, or download the processed plan by clicking this button.  
-<ul class="list-inline">
-  <li>
-    <p><a class="btn btn-primary btn-lg" 
-    href="processed-lab.pln" 
-    role="button">Download Network Model</a></p>
-  </li>
-</ul>  
+If you have completed the previous steps, you can continue to use the same network model, or download the processed plan file.
 
 [DANGER] All the steps below assume you are starting with this plan.
 
@@ -279,11 +276,9 @@ Before adding traffic to your network, you would like to know the impact the tra
 
 You have simulated the impact to the network of a circuit failure. In Design you can also simulate what happens if a node, srlg, lag or a site were to fail. If you were to go through each element one by one, you would get a "worst case" view of where you are most at risk of congestion and you would also get a view of the failures that case the worst case, the "failure impact". Crosswork Planning Design has the Simulation Analysis tool to automate this process and provide that analysis. 
 
-Crosswork Planning Design is also very extensible and provides an API that can be used to enhance the available tools. One example is an add-on called circuit upgrade. It will examine the simulation and determine what circuits should be upgraded and by how much. 
-
 #### Step 12 Capacity Planning with Resiliency Analysis
 - Run Simulation Analysis
-    - Select **Tools->Simulation Analysis** 
+    - Select **Actions > Tools > Simulation Analysis** 
     - Select Circuits to have the tool simulate one-by-one each circuit failure.
     - Select OK 
     - Examine the Worst Case Traffic 
@@ -293,6 +288,11 @@ Crosswork Planning Design is also very extensible and provides an API that can b
     - Examine the Failure Impact
         - From the top left traffic view, select "Failure Impact"
         - This view shows the impact of any failure. A circuit colored purple means that if that circuit were to fail, some interface somewhere would be purple.
+
+
+![Sim Analysis]({{site.baseurl}}/images/cp-design-getting-started-sim-analysis-1.png)
+
+
  ![sim_analysis.gif](sim_analysis.gif) 
  - Run the Circuit Upgrade add on to see how much capacity you need and where
      - Select **Add-Ons->Circuit Upgrade**
