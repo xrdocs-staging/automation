@@ -344,14 +344,12 @@ You have simulated adding traffic to the network by adding demands. Using Design
     - Select the demands in the table and open the Properties menu
     - Apply a Growth Percentage of 30%. (This means you are estimating the demands will grow by 30% over the next time period.)
     - Click OK
-      ![set_dmd_growth.gif](set_dmd_growth.gif) 
 - Create Growth Plans
     - Select **Tools->Create Growth Plans** 
     - Select Demand Growth Percentage
     - Enter number of periods 3 
     - Click OK
     - Observe the impact of the traffic growth. You can also run Simulation Analysis on this plan 
-     ![growth_plans.gif](growth_plans.gif)   
 
 ##### Understanding the Create Growth Plans Options
 **Example 1:**
