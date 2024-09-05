@@ -161,9 +161,9 @@ After Demand Deduction has completed running, it will generate a report. Close t
 
 Now if you select the Simulated Traffic from the upper left drop down box you should see the links are colored according to their simulated utilization. 
 
-On the following tables, the fields would have been populated
-- Demands table, traffic field
-- Interfaces table, simulated traffic field
+On the Demands and Interfaces tables, the following columns have been populated:
+- Demands table: traffic column
+- Interfaces table: simulated traffic (Traffic Sim) column
 
 ![Simulated Traffic Plot view showing link colors]({{site.baseurl}}/images/cp-design-getting-started-dmd-4-done.png)
 
