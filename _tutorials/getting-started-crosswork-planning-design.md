@@ -115,7 +115,7 @@ In the upper left corner of Crosswork Planning Design, the selection box should 
 
 Crosswork Planning simulates traffic routed through the network using Demands. A demand represents an aggregate per service class flow of traffic from source to destination. Each demand has a traffic value in Mbps and is routed according the topology and protocols as defined in the Network Model of the network. 
 
-#### Step 8 Create A Demand Mesh
+#### Step 6 Create A Demand Mesh
 To create a mesh of demands, first find the edge of the network. You will notice these routers are identified with hostnames `er.<site name>`.
 
 - In the Nodes property table, you can click on the node name column header to sort the nodes. Select only these nodes that begin with "er1" in the table. 
@@ -136,7 +136,7 @@ To create a mesh of demands, first find the edge of the network. You will notice
 
 - You can keep all the default options and select **Save**.  
 
-#### Step 9 Run Demand Deduction
+#### Step 7 Run Demand Deduction
 Now the demands are in the model, but the demand traffic values are 0 (mbps). Crosswork Planning has a tool called Demand Deduction that uses measured data from the network to determine what the demand traffic values should be.
 
 ![Demands traffic are zero]({{site.baseurl}}/images/cp-design-getting-started-dmd-no-traffic.png)
@@ -180,7 +180,7 @@ Note: Crosswork Planning by default has Auto-Simulate set to off. This means tha
 
 ### What if Analysis
 You can examine what happens if you change any aspect of the model.  
-#### Step 10 Examine a Few Scenarios
+#### Step 8 Examine a Few Scenarios
 - What happens if a link fails?
     - On the Interfaces table, enter the filter for Node cr1.nyc and Remote Node cr2.wdc. Select the ellipsis icon and select Fail to fail this link.
     - Notice that the links between cr2.chi and cr2.kcy, and from cr2.nyc to cr1.chi (along with other links) has high utilization as a result of the single link failure.
@@ -222,7 +222,7 @@ In the previous steps you have seen some of the simple cases you can examine wit
 
 Before adding traffic to your network, you would like to know the impact the traffic would have. If there is congestion are there topology changes or optimizations that can be done to support the traffic?
 
-#### Step 11 Bandwidth on Demand and Traffic Engineering
+#### Step 9 Bandwidth on Demand and Traffic Engineering
 
 - Add a Demand
     - Insert a new Demand by selecting **Actions > Insert > Demands > Demand**
@@ -281,7 +281,7 @@ Before adding traffic to your network, you would like to know the impact the tra
 
 You have simulated the impact to the network of a circuit failure. In Design you can also simulate what happens if a node, srlg, lag or a site were to fail. If you were to go through each element one by one, you would get a "worst case" view of where you are most at risk of congestion and you would also get a view of the failures that case the worst case, the "failure impact". Crosswork Planning Design has the Simulation Analysis tool to automate this process and provide that analysis. 
 
-#### Step 12 Capacity Planning with Resiliency Analysis
+#### Step 10 Capacity Planning with Resiliency Analysis
 - Run Simulation Analysis
     - Select **Actions > Tools > Simulation Analysis** 
     - Select Circuits to have the tool simulate one-by-one each circuit failure, select Next
@@ -337,13 +337,10 @@ You have simulated the impact to the network of a circuit failure. In Design you
 
 You have simulated adding traffic to the network by adding demands. Using Design you can also apply a growth percentage to a demand or set of demands and project that growth into the future. 
 
-#### Step 13 Capacity Planning and Forecasting
+#### Step 11 Capacity Planning and Forecasting
 - Apply a Growth Percentage to Demands
-    - Highlight sites NYC and WDC
-    - Right click the one of the sites and select **Filter to Intersite Demands->with selected sites as source** 
-    - Select the demands in the table and open the Properties menu
+    - Select the demands between sites NYC and WDC
     - Apply a Growth Percentage of 30%. (This means you are estimating the demands will grow by 30% over the next time period.)
-    - Click OK
 - Create Growth Plans
     - Select **Tools->Create Growth Plans** 
     - Select Demand Growth Percentage
@@ -365,7 +362,6 @@ You want to know what your network will look like after every 2 quarter for the 
 
 - Period Increment 2
 - Number of Periods 3
-   
           
 [INFO] Growth information derived from the Crosswork Planning Live application can be imported into design. However, Crosswork Planning live is not covered here.  
 
