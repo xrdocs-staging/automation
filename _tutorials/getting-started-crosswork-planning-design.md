@@ -290,8 +290,8 @@ You have simulated the impact to the network of a circuit failure. In Design you
 
     - Examine the Worst Case Traffic 
         - From the top left traffic view, select "Worst Case Traffic"
-        - To see a failure that cased the worst case, on the Interfaces table, select the an interface, under the Actions column select the ellipsis icon [...] and select "Fail to WC", you will be taken to the Simulated Traffic view of that failure.
-        - Recover the failure by selecting an empty area of the plot and selecting **recover->`<circuit>`**
+        - To see a failure that cased the worst case, on the Interfaces table, select the an interface, under the Actions column select the ellipsis icon [...] and select "Fail to WC", you will be taken to the Simulated Traffic view of that failure. If there are more than one failure scenariow which leads the to worst case traffic, you will be prompted to select the failure scenario.
+        - Recover the failure by selecting the failed interface and selecting the ellipsis icon, "Recover".
     - Examine the Failure Impact
         - From the top left traffic view, select "Failure Impact"
         - This view shows the impact of any failure. A circuit colored purple means that if that circuit were to fail, some interface somewhere would be purple.
