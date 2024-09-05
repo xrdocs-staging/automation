@@ -284,21 +284,24 @@ You have simulated the impact to the network of a circuit failure. In Design you
 #### Step 12 Capacity Planning with Resiliency Analysis
 - Run Simulation Analysis
     - Select **Actions > Tools > Simulation Analysis** 
-    - Select Circuits to have the tool simulate one-by-one each circuit failure.
-    - Select OK 
+    - Select Circuits to have the tool simulate one-by-one each circuit failure, select Next
+    - On Run Settings, select Execute Now and select Submit
+    - After Simulation Analysis has completed running, a report will be generated. Close the Report.
+
     - Examine the Worst Case Traffic 
         - From the top left traffic view, select "Worst Case Traffic"
-        - To see a failure that cased the worst case, right click on an interface and select "Fail to WC", you will be taken to the Simulated Traffic view of that failure.
+        - To see a failure that cased the worst case, on the Interfaces table, select the an interface, under the Actions column select the ellipsis icon [...] and select "Fail to WC", you will be taken to the Simulated Traffic view of that failure.
         - Recover the failure by selecting an empty area of the plot and selecting **recover->`<circuit>`**
     - Examine the Failure Impact
         - From the top left traffic view, select "Failure Impact"
         - This view shows the impact of any failure. A circuit colored purple means that if that circuit were to fail, some interface somewhere would be purple.
 
-
 ![Sim Analysis]({{site.baseurl}}/images/cp-design-getting-started-sim-analysis-1.png)
 
+![Sim Analysis]({{site.baseurl}}/images/cp-design-getting-started-sim-analysis-2.png)
 
- ![sim_analysis.gif](sim_analysis.gif) 
+![Sim Analysis]({{site.baseurl}}/images/cp-design-getting-started-sim-analysis-3.png)
+
  - Run the Circuit Upgrade add on to see how much capacity you need and where
      - Select **Add-Ons->Circuit Upgrade**
      - Enter a Utilization threshold %: 90
