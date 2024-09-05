@@ -221,10 +221,11 @@ In the previous steps you have seen some of the simple cases you can examine wit
 [INFO] Make sure you have reversed any changes made in the previous step. Crosswork Planning Design does not have an "undo" function so you need to undo any changes manually.  You can always re-download and open up a copy of the model using the button below the heading "What Can You Do With a Network Simulation".
 
 Before adding traffic to your network, you would like to know the impact the traffic would have. If there is congestion are there topology changes or optimizations that can be done to support the traffic?
+
 #### Step 11 Bandwidth on Demand and Traffic Engineering
 
 - Add a Demand
-    - Insert a new Demand by selecting **Insert->Demands->Demand** or right click and empty area of the plot and select **New->Demands->Demand**
+    - Insert a new Demand by selecting **Actions > Insert > Demands > Demand**
     - Give the Demand a name: new_traffic
     - Give the demand a source: er1.bos
     - Give the demand a destination: er1.mia
@@ -232,11 +233,11 @@ Before adding traffic to your network, you would like to know the impact the tra
     - Select Add
     - Observe congestion on Interface: cr1.nyc GigabitEthernet0/0/3/0
 
-![Add Demands]({{site.baseurl}}/images/cp-design-getting-started-add-demand-1.png)
+![Insert New Demand]({{site.baseurl}}/images/cp-design-getting-started-add-demand-1.png)
 
-![Add Demands]({{site.baseurl}}/images/cp-design-getting-started-add-demand-4.png)
+![Edit New Demand attributes]({{site.baseurl}}/images/cp-design-getting-started-add-demand-4.png)
 
-![Add Demands]({{site.baseurl}}/images/cp-design-getting-started-add-demand-5.png)
+![Topoology view with New Demand]({{site.baseurl}}/images/cp-design-getting-started-add-demand-5.png)
 
 - Add a MPLS RSVP Tunnel
     - Insert a new Tunnel by selecting **Actions > Insert > LSPs > LSP**
@@ -247,11 +248,11 @@ Before adding traffic to your network, you would like to know the impact the tra
     - Select Save
     - Select the LSP in the LSPs property table to observe its path.
 
-![Add Demands]({{site.baseurl}}/images/cp-design-getting-started-insert-lsp-1.png)
+![Insert New RSVP LSP]({{site.baseurl}}/images/cp-design-getting-started-insert-lsp-1.png)
 
-![Add Demands]({{site.baseurl}}/images/cp-design-getting-started-insert-lsp-2.png)
+![Edit New RSVP LSP Source and Destination]({{site.baseurl}}/images/cp-design-getting-started-insert-lsp-2.png)
 
-![Add Demands]({{site.baseurl}}/images/cp-design-getting-started-insert-lsp-3.png)
+![Visualize new RSVP LSP]({{site.baseurl}}/images/cp-design-getting-started-insert-lsp-3.png)
 
 - Optimize the Network
     - Select **Actions > Tools > RSVP LSP Optimization > Tactical explicit optimization**
@@ -261,15 +262,17 @@ Before adding traffic to your network, you would like to know the impact the tra
     - Select Execute Now. Close the Report for Tactical Explicit Optimization.
     - A new Network Model will be produced, In the new plan select the LSP in the LSPs property table to observe the new path
 
-![Add Demands]({{site.baseurl}}/images/cp-design-getting-started-rsvp-opt-1.png)
+![RSVP Optimization]({{site.baseurl}}/images/cp-design-getting-started-rsvp-opt-0.png)
 
-![Add Demands]({{site.baseurl}}/images/cp-design-getting-started-rsvp-opt-2.png)
+![RSVP Optimization - Select Interfaces]({{site.baseurl}}/images/cp-design-getting-started-rsvp-opt-1.png)
 
-![Add Demands]({{site.baseurl}}/images/cp-design-getting-started-rsvp-opt-3.png)
+![RSVP Optimization - Select LSPs]({{site.baseurl}}/images/cp-design-getting-started-rsvp-opt-2.png)
 
-![Add Demands]({{site.baseurl}}/images/cp-design-getting-started-rsvp-opt-4.png)
+![RSVP Optimization - Settings]({{site.baseurl}}/images/cp-design-getting-started-rsvp-opt-3.png)
 
-![Add Demands]({{site.baseurl}}/images/cp-design-getting-started-rsvp-opt-5.png)
+![RSVP Optimization -  Run Settings]({{site.baseurl}}/images/cp-design-getting-started-rsvp-opt-4.png)
+
+![Topology view with Optimized RSVP LSP]({{site.baseurl}}/images/cp-design-getting-started-rsvp-opt-5.png)
 
 - Delete the added demand and LSP to prepare for the next exercise.
 
