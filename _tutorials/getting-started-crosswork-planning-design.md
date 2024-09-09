@@ -359,18 +359,19 @@ You have simulated adding traffic to the network by adding demands. Using Design
     - Apply a Growth Percentage of 30%. (This means you are estimating the demands will grow by 30% over the next time period.)
     - Select Save (under Demand), followed by Save at the Bottom Right Corner of the screen
 - Create Growth Plans
-    - Select **Tools->Create Growth Plans** 
+    - Select **Actions > Tools > Create Growth Plans** 
     - Select Demand Growth Percentage
     - Enter number of periods 3 
-    - Click OK
-    - Observe the impact of the traffic growth. You can also run Simulation Analysis on this plan 
+    - Select Save
+    - A tar file comprising plan files for the growth periods will be created. 
+    - You may download and unpack the individual plan files contained within the tar file
+    - You may also import the individual plan files to Crosswork Planning to observe the impact of traffic growth and to run Simulation Analysis.
 
-![Select Demands]({{site.baseurl}}/images/cp-design-getting-started-select-demands.png)
+![Select Demands]({{site.baseurl}}/images/cp-design-getting-started-select-demands-nyc-wdc.png)
 
 ![Edit Demand Growth]({{site.baseurl}}/images/cp-design-getting-started-edit-demand-growth.png)
 
 ![Create Growth Plans]({{site.baseurl}}/images/cp-design-getting-started-create-growth-plans.png)
-
 
 ##### Understanding the Create Growth Plans Options
 **Example 1:**
