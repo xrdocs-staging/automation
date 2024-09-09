@@ -170,7 +170,7 @@ On the Demands and Interfaces tables, the following columns have been populated:
 ## What Can You Do With a Network Simulation
 The following tasks will take you through some of the things you can do with a network simulation. 
 
-If you have completed the previous steps, you can continue to use the same network model, or download the processed plan file.
+If you have completed the previous steps, you can continue to use the same network model, or download the processed plan (processed-lab.pln) file.
 
 [DANGER] All the steps below assume you are starting with this plan.
 
@@ -331,9 +331,8 @@ You have simulated the impact to the network of a circuit failure. In Design you
 
 ![Capacity Planning Opt]({{site.baseurl}}/images/cp-design-getting-started-capacity-plan-opt-6.png)
 
-### Capacity Planning and Forecasting
-[INFO] Make sure you have reversed any changes made in the previous step. Crosswork Planning Design does not have an "undo" function so you need to undo any changes manually.  You can always re-download and open up a copy of the model using the button below the heading "What Can You Do With a Network Simulation".
-
+### Capacity Planning and Forecasting 
+[INFO] Make sure you have reversed any changes made in the previous step. Crosswork Planning Design does not have an "undo" function so you need to undo any changes manually.  You can always re-download and open up a copy of the model (processed-lab.pln) using the button below the heading "What Can You Do With a Network Simulation".
 
 You have simulated adding traffic to the network by adding demands. Using Design you can also apply a growth percentage to a demand or set of demands and project that growth into the future. 
 
@@ -341,12 +340,21 @@ You have simulated adding traffic to the network by adding demands. Using Design
 - Apply a Growth Percentage to Demands
     - Select the demands between sites NYC and WDC
     - Apply a Growth Percentage of 30%. (This means you are estimating the demands will grow by 30% over the next time period.)
+    - Select Save (under Demand), followed by Save at the Bottom Right Corner of the screen
 - Create Growth Plans
     - Select **Tools->Create Growth Plans** 
     - Select Demand Growth Percentage
     - Enter number of periods 3 
     - Click OK
     - Observe the impact of the traffic growth. You can also run Simulation Analysis on this plan 
+
+
+![Select Demands]({{site.baseurl}}/images/cp-design-getting-started-select-demands.png)
+
+![Edit Demand Growth]({{site.baseurl}}/images/cp-design-getting-started-edit-demand-growth.png)
+
+![Create Growth Plans]({{site.baseurl}}/images/cp-design-getting-started-create-growth-plans.png)
+
 
 ##### Understanding the Create Growth Plans Options
 **Example 1:**
