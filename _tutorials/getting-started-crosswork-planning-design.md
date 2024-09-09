@@ -332,6 +332,7 @@ You have simulated the impact to the network of a circuit failure. In Design you
 ![Capacity Planning Opt]({{site.baseurl}}/images/cp-design-getting-started-capacity-plan-opt-6.png)
 
 ### Capacity Planning and Forecasting 
+
 [INFO] Make sure you have reversed any changes made in the previous step. Crosswork Planning Design does not have an "undo" function so you need to undo any changes manually.  You can always re-download and open up a copy of the model (processed-lab.pln) using the button below the heading "What Can You Do With a Network Simulation".
 
 You have simulated adding traffic to the network by adding demands. Using Design you can also apply a growth percentage to a demand or set of demands and project that growth into the future. 
@@ -347,7 +348,6 @@ You have simulated adding traffic to the network by adding demands. Using Design
     - Enter number of periods 3 
     - Click OK
     - Observe the impact of the traffic growth. You can also run Simulation Analysis on this plan 
-
 
 ![Select Demands]({{site.baseurl}}/images/cp-design-getting-started-select-demands.png)
 
