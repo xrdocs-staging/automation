@@ -26,7 +26,15 @@ Note: Please ensure that Smart Licensing has been setup prior to trying the exer
 
 ## Getting acquainted with Crosswork Planning Design
 
-Your task is to use an unprocessed network model (i.e. unprocesss.pln) in the Crosswork Planning Design application to do the following:
+Your task is to use an unprocessed network model (i.e. unprocesssed-lab.pln) in the Crosswork Planning Design application to do the following:
+
+<ul class="list-inline">
+  <li>
+    <p><a class="btn btn-primary btn-lg" 
+    href="unprocessed-lab.pln" 
+    role="button">Download Network Model</a></p>
+  </li>
+</ul>
 
 - Logically group nodes to make the topology easy to navigate
 - Create a traffic simulation using measured data from the network
