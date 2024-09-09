@@ -373,6 +373,10 @@ You have simulated adding traffic to the network by adding demands. Using Design
 
 ![Create Growth Plans]({{site.baseurl}}/images/cp-design-getting-started-create-growth-plans.png)
 
+![Create Growth Plans]({{site.baseurl}}/images/cp-design-getting-started-create-growth-plans-options.png)
+
+![Create Growth Plans]({{site.baseurl}}/images/cp-design-getting-started-create-growth-plans-success.png)
+
 ##### Understanding the Create Growth Plans Options
 **Example 1:**
 You estimate demands grow 3% per week, so you apply a growth percentage of 3% to the demands.
