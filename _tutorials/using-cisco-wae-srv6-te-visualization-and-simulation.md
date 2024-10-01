@@ -14,11 +14,9 @@ tags:
 ---
 ## Introduction
 
-Cisco WAN automation engine 7.6 supports SRv6 visualization using SR-PCE based network collection using *topo-bgpls-xtc-nimo* and *lsp-pcep-xtc-nimo*.
+Cisco WAN automation engine 7.6 supports SRv6 visualization. These enhancements provide capabilities for customers looking at the visualization, and modeling of their SRv6-capable networks, including the ability to use SR LSP Optimizers. WAE Design has incorporated SRv6 modeling capabilities since 7.5 release and can be used to open network models comprising SRv6 attributes from the Crosswork Optimization Engine. 
 
-These enhancements provide capabilities for customers looking at the collection, visualization, and modeling of their SRv6-capable networks, including the ability to use SR LSP Optimizers. WAE Design has incorporated SRv6 modeling capabilities since 7.5 release and can be used to open network models comprising SRv6 attributes from the Crosswork Optimization Engine. 
-
-This tutorial shows how the WAE Design client renders SRv6 network models and compares its representation with the Crosswork Optimization Engine.
+This tutorial shows how the WAE Design client renders SRv6 network models collected from the Crosswork Optimization Engine.
 
 ## Crosswork Optimization Engine model
 
