@@ -71,7 +71,9 @@ SR-PCE or Netflow agents must be set up if we are using either for collection. A
 
 ![Setting up Agent]({{site.baseurl}}/images/cp-getting-started-collection-agent.png) 
 
-After the agent has been set up, we may select the ellipsis icon to start the agent and verify the connectivity to the SR-PCE. Note that the LSP status will indicate Valid data if LSPs have been discovered; otherwise, it may indicate invalid data.
+After the agent has been set up, we may select the ellipsis icon to start the agent and verify the connectivity to the SR-PCE. 
+
+Note: The abscence of LSPs may cause *LSP status - Data collection* to indicate *Invalid data*.
 
 ![Setting up Agent]({{site.baseurl}}/images/cp-getting-started-collection-agent-status.png)
 
@@ -111,6 +113,11 @@ An excellent way to determine if the collection setup has been configured correc
 ![Scheduling collection]({{site.baseurl}}/images/cp-getting-started-collection-schedule2.png) 
 
 Once we have determined that the collection is satisfactory, we can enter a recurring schedule for collection to be performed automatically.
+
+In the example below, we have used a cron expression for a 5 min collection cadence 
+```
+/5 * * * * 
+```
 
 ![Scheduling collection]({{site.baseurl}}/images/cp-getting-started-collection-schedule3.png) 
 
