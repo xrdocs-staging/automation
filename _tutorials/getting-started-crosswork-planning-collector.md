@@ -114,9 +114,9 @@ An excellent way to determine if the collection setup has been configured correc
 
 Once we have determined that the collection is satisfactory, we can enter a recurring schedule for collection to be performed automatically.
 
-In the example below, we have used a cron expression for a 5 min collection cadence 
+In the example below, we have used a cron expression for a 5 min collection cadence.
 ```
-/5 * * * * 
+0/5 * * * * 
 ```
 
 ![Scheduling collection]({{site.baseurl}}/images/cp-getting-started-collection-schedule3.png) 
