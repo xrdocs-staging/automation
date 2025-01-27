@@ -1,0 +1,22 @@
+https://pubhub.devnetcloud.com/media/crosswork-planning-api/docs/guides/resources/cp-design-getting-started-open-plan-to-open.png#developer.cisco.com
+
+https://pubhub.devnetcloud.com/media/crosswork-planning-api/docs/guides/resources/unprocessed-lab.pln ## Working
+
+https://pubhub.devnetcloud.com/media/crosswork-planning-api/docs/guides/ resources/unprocessed-lab.pln ## Linked from doc
+
+https://pubhub.devnetcloud.com/media/crosswork-planning-api/docs/guides/resources/unprocessed-lab.pln
+
+node prefix loopback - wrong id for v2 and v3.
+
+zte vendor set to huawei
+
+snmp vpn nimo - Zte gets skipped because of unsupported vendor
+
+show backwards compatibility with WAE
+
+key takewats
+- Crosswork Planning collection is not bespoke (UI  based, easy to setup) (don't need CX)
+- 
+
+
+

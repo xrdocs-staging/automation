@@ -90,8 +90,9 @@ Next, select **Enable Smart Licensing**.
 ![Enable Smart Licensing Selection]({{site.baseurl}}/images/wae-smart-licensing-img001.png)
   
 Then, select **Register** to register WAE server with Cisco Smart Software Licensing.
-  
 
+Note: If you do not register WAE server with Cisco Smart Software Licensing, then Smart Licensing will run in evaluation mode.
+  
 ![Smart Software License Registration]({{site.baseurl}}/images/wae-smart-licensing-img002.png)
 
   
