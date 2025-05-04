@@ -71,7 +71,7 @@ SR-PCE or Netflow agents must be set up if we are using either for collection. A
 
 ![Setting up Agent]({{site.baseurl}}/images/cp-getting-started-collection-agent.png) 
 
-After the agent has been set up, we may select the ellipsis icon to start the agent and verify the connectivity to the SR-PCE. 
+After the agent has been set up, we may verify the connectivity to the SR-PCE and if Topology and LSP collection data is valid.
 
 Note: The abscence of LSPs may cause *LSP status - Data collection* to indicate *Invalid data*.
 
