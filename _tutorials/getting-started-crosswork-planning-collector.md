@@ -91,6 +91,8 @@ SR-PCE based topology and LSP collection are usually used for Segment Routing (S
 
 For SR-PCE based topology and LSP collection, we need to ensure that the mandatory parameters have been entered under the SR-PCE, PCEP LSP, and Traffic collection subsections.
 
+Note that for Traffic collection, the source should be configured to use *DARE - Aggregated Output*, since the DARE Aggregator combines the information collected for both topology and LSPs collected via SR-PCE.
+
 ![Setting up PCE collection]({{site.baseurl}}/images/cp-getting-started-collection-xtc3.png) 
 
 ### Example: IGP based topology and SNMP based LSP collection ###
